@@ -1,0 +1,36 @@
+.background {
+  position: relative;
+  height: 750px;
+}
+
+.background .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+}
+
+.background .navBar .navBarLogo {
+  position: relative;
+  z-index: 1;
+  padding: 8px 60px;
+}
+
+.background .navBar .navBarMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background .navBar .navBarMenu .navBarList {
+  z-index: 1;
+  padding: 8px 12px;
+  margin: 0 20px;
+}
+/*# sourceMappingURL=NavBar.module.css.map */

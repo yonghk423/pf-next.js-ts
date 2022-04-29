@@ -1,0 +1,23 @@
+.background {    
+ 	position: relative;	
+    height: 750px;
+ 	.navBar {
+ 		display: flex;
+ 		justify-content: space-between;
+ 		align-items: center;
+ 		padding: 16px;
+ 		.navBarLogo {
+ 			position: relative;
+ 			z-index: 1;
+ 			padding: 8px 60px;			
+ 		}
+ 		.navBarMenu {
+ 			display: flex;
+ 			.navBarList {
+ 				z-index: 1;
+ 				padding: 8px 12px;
+   				margin: 0 20px;
+ 			}
+ 		}
+ 	}
+ }

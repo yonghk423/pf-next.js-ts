@@ -1,0 +1,7 @@
+.skillsBox .skillsBoxList {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+/*# sourceMappingURL=Skills.module.css.map */
