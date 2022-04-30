@@ -1,0 +1,14 @@
+.footerBox {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    height: 125px;
+    justify-items: end;
+    align-items: end;
+    .footerInfo {
+        background-color: green;
+        color: white;
+        margin: 20px;
+        
+    }
+}

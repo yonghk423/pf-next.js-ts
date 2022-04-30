@@ -21,5 +21,27 @@
         text-align: center;
         // height: 500px;
         margin: 20px;
+        .projectBox {
+            border: 5px solid black;
+            background-color: khaki;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-areas: 'projectTitle projectTitle projectTitle';
+            // grid-template-areas: 'projectImg projectImg';
+            .projectTitle {
+                background-color: red;
+                grid-area: projectTitle;
+            }
+            .projectImg {
+                background-color: orange;
+                // grid-area: projectImg;
+            }
+            .projectIntro {
+                background-color: yellow;
+            }
+            .projectSkills {
+                background-color: green;
+            }
+        }
     }                    
 }
