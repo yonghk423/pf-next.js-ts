@@ -10,7 +10,7 @@ import Image from 'next/image';
                <div className={styles.navBarList}>About me</div>
                <div className={styles.navBarList}>Skills</div>
                <div className={styles.navBarList}>Projects</div>
-               <div className={styles.navBarList}>Career</div>
+               {/* <div className={styles.navBarList}>Career</div> */}
              </div>
            </div>          
            <Image

@@ -19,29 +19,43 @@
         background-color: white;
         border: 1px solid black;
         text-align: center;
-        // height: 500px;
         margin: 20px;
-        .projectBox {
-            border: 5px solid black;
-            background-color: khaki;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-areas: 'projectTitle projectTitle projectTitle';
-            // grid-template-areas: 'projectImg projectImg';
+        .projectBox {          
+          border: 5px solid black;
+          background-color: black;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-template-areas: 'projectTitle projectTitle projectTitle';
             .projectTitle {
                 background-color: red;
+                position: relative;
+                height: 50px;
+                font-size: 40px;
                 grid-area: projectTitle;
             }
             .projectImg {
-                background-color: orange;
-                // grid-area: projectImg;
+                max-width: 100%;         
             }
-            .projectIntro {
-                background-color: yellow;
+            .projectIntroBox {
+               max-width: 100%;
+               background-color: yellow;
+              .projectIntro {
+                margin: 10px;
+               
+              }
+              .projectIntroText {
+                
+              }
             }
-            .projectSkills {
-                background-color: green;
+            .projectSkillsBox {
+              background-color: green;
+              .projectSkills {
+                margin: 10px;
+              }
+            .projectSkillsText {
+              }
             }
+            
         }
     }                    
 }
