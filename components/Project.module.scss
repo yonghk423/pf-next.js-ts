@@ -1,90 +1,25 @@
-.container {
-    position: relative;
-    height: 240px;
-    width: 500px;
-    margin: auto;
-    margin-top: 100px;
-    
-    &::after {
-      content: "";
-      position: absolute;
-      top: 216px;
-      left: 10px;
-      width: 480px;
-      border: 3px solid rgba(0, 0, 0, 0.2);
-      border-radius: 0px 0px 50% 50%;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      top: 218px;
-      left: 25px;
-      height: 5px;
-      width: 450px;
-      background-color: #C8DBFE;
-      border-radius: 50%;
-    }
-    .laptop {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      z-index: 100;
-    }
-    .screen {
-        position: absolute;        
-        left: 115px;
-        top: 0px;
-        height: 200px;
-        width: 300px;
+.container {   
+    border: 5px solid gray;
+    border-radius: 30px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    .camera {
+        border: 1px solid black;
         background-color: gray;
-        border-radius: 12px 12px 0px 0px;
-        border: 3px solid black;
-        box-sizing: border-box;
-        &::after, &::before {
-          content: "";
-          position: absolute;
-        }
-        &::after {
-            top: 20px;
-            left: 8px;
-            height: 162px;
-            width: 278px;
-            background: white;
-            border: 3px solid border;
-            box-sizing: border-box;
-        }
-        &::before {
-          top: 5px;
-          left: calc(50% - 4px);
-          height: 8px;
-          width: 8px;
-          background: black;
-          border-radius: 50%;
-        }
+        border-radius: 15px;
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;    
+        position: relative;
+        top: 10px;    
     }
-    .base {
-        position: absolute;
-        top: 198px;
-        left: 85px;
-        height: 18px;
-        width: 360px;
-        background-color: grey;
-        border-radius: 0px 0px 15px 15px;
-        border: 3px solid border;
-        box-sizing: border-box;
-        
-        &::after {
-          content: "";
-          position: absolute;
-          left: 135px;
-          height: 4px;
-          width: 90px;
-          background: #fff;
-          border-radius: 0px 0px 8px 8px;
-          background: #ddd;
-          border: 2px solid border;
-          box-sizing: border-box;
-          border-top: none;
-        }
-    }              
+    .laptop {      
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+        // height: 500px;
+        margin: 20px;
+    }                    
 }
