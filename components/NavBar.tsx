@@ -5,7 +5,7 @@ import Image from 'next/image';
        <div>
          <div className={styles.background}>
           <div className={styles.navBar}>
-             <div className={styles.navBarLogo}>yong hee&apos;Portfolio</div>
+             <div className={styles.navBarLogo}>yonghee&apos;Portfolio</div>
              <div className={styles.navBarMenu}>
                <div className={styles.navBarList}>About me</div>
                <div className={styles.navBarList}>Skills</div>
