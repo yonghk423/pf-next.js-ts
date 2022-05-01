@@ -6,11 +6,11 @@ import Image from 'next/image';
          <div className={styles.background}>
           <div className={styles.navBar}>
              <div className={styles.navBarLogo}>yonghee&apos;Portfolio</div>
-             <div className={styles.navBarMenu}>
-               <div className={styles.navBarList}>About me</div>
-               <div className={styles.navBarList}>Skills</div>
-               <div className={styles.navBarList}>Projects</div>
-               {/* <div className={styles.navBarList}>Career</div> */}           
+              <div className={styles.navBarMenu}>
+                <div className={styles.navBarList}>Home</div>
+                <div className={styles.navBarList}>About me</div>
+                <div className={styles.navBarList}>Skills</div>
+                <div className={styles.navBarList}>Projects</div>                         
              </div>
             </div>  
           <div className={styles.navBarProfileBox}>
