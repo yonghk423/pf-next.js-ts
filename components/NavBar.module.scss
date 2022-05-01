@@ -9,15 +9,45 @@
  		.navBarLogo {
  			position: relative;
  			z-index: 1;
- 			padding: 8px 60px;			
+ 			padding: 8px 60px;
+      font-size: 25px;			
  		}
  		.navBarMenu {
  			display: flex;
  			.navBarList {
- 				z-index: 1;
+ 			  z-index: 1;
  				padding: 8px 12px;
-   				margin: 0 20px;
+   			margin: 0 20px;
+        font-size: 20px;
  			}
- 		}
+ 		}		
  	}
+	 .navBarProfileBox {
+			position: relative;
+      top: 100px;
+			z-index: 1; 				
+			border: 1px solid rgb(42, 193, 95);
+      display: grid;
+      // text-align: center;
+      margin: 100px;
+      
+			.navBarProfileName {   
+        font-size: 40px;
+        border: 1px solid rgb(24, 125, 37);
+        background-color: aquamarine;		
+        padding: 25px;
+			}
+      .navBarProfileIntroOne {
+        font-size: 25px;
+        border: 1px solid rgb(24, 125, 37);
+        background-color: aquamarine;		
+        padding: 25px;
+      }
+      .navBarProfileIntroTwo {
+        font-size: 25px;
+        border: 1px solid rgb(24, 125, 37);
+        background-color: aquamarine;		
+        padding: 25px;
+      }
+		}
  }
