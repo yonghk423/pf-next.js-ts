@@ -5,17 +5,20 @@ import styles from "./Skills.module.scss"
          <div className={styles.skillsBox}>
              <div className={styles.skillsTitle}>Skills</div>
              <div className={styles.skillsBoxList}>
-                 <div>
-                     <div>Front-end</div>
-                     <div>JavaScript TypeScript CSS HTML ReactJS Redux.js Redux-Thunk Sass(SCSS) styled-components</div>
+                 <div className={styles.frontBox}>
+                     <div className={styles.frontTitle}>Front-end</div>
+                     <div className={styles.frontList}>
+                         <div className={styles.js}>JavaScript, HTML, CSS</div>
+                         <div className={styles.ts}>TypeScript, ReactJS, Next.js</div>
+                         <div className={styles.redux}>Redux.js, Redux-Thunk</div>
+                         <div className={styles.scss}>Sass(SCSS), styled-components</div>
+                     </div>
                  </div>
-                 <div>
-                     <div>Back-end</div>
-                     <div>Node.js ExpressJS</div>
-                 </div>
-                 <div>
-                     <div>Deployment</div>
-                     <div>Vercel Heroku</div>
+                 <div className={styles.backDeployBox}>
+                     <div className={styles.backTitle}>Back-end</div>
+                     <div className={styles.backList}>Node.js, ExpressJS</div>
+                     <div className={styles.deployTitle}>Deployment</div>
+                     <div className={styles.deployList}>Vercel, Heroku</div>
                  </div>
              </div>            
          </div>
