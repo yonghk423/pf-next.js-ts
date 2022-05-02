@@ -19,8 +19,8 @@ import Image from 'next/image';
             <div className={styles.navBarProfileIntroTwo}>빨리 가기보다는, 지치지 않고 멀리 가는 개발자를 꿈꿉니다.</div>
           </div>          
            <Image
-             src="/backgroundImg.jpeg"
-             alt=""
+            src="/backgroundImg.jpeg"
+            alt=""
             layout="fill" objectFit="cover" objectPosition="center"
           />                  
         </div>

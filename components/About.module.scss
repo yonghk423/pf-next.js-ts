@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&display=swap');
+
+// font-family: 'DM Serif Display', serif;
+// font-family: 'Kalam', cursive;
+
 .aboutBox {    
     .aboutTitle {
-        background-color: antiquewhite;
-        border: 1px solid black;
+        font-family: 'Kalam', cursive;
+        background-color: #e9e6e4;
+        // border: 1px solid black;
         text-align: center;
         font-size: 45px;
         margin: 20px;    
     }
     .aboutBoxList{
+        font-family: 'Kalam', cursive;
+        background-color: #e9e6e4;
+        margin: 20px;
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;  

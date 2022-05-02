@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&display=swap');
+
+// font-family: 'DM Serif Display', serif;
+// font-family: 'Kalam', cursive;
+
 .projectMainTitle {
+  font-family: 'Kalam', cursive;
   position: relative;
   text-align: center;
   font-size: 45px;
-  background-color: antiquewhite;
-  border: 1px solid black;
+  background-color: #e9e6e4;
+  margin: 20px;
+  // border: 1px solid black;
 }
 .container {   
     border: 5px solid gray;
@@ -29,12 +36,14 @@
         margin: 20px;
         .projectBox {          
           border: 5px solid black;
-          background-color: black;
+          background-color: #e9e6e4;;
+          // border: 1px solid black;
           display: grid; 
           grid-template-areas: 'projectTitleBox projectTitleBox';
           .projectTitleBox {
-            background-color: red; 
+            background-color: #e9e6e4;
             grid-area: projectTitleBox; 
+            // border: 1px solid black;
              .projectTitle {
                              
               }
@@ -46,7 +55,8 @@
             }           
             
           .projectIntroBox {
-            background-color: yellow;
+            background-color: #e9e6e4;
+            // border: 1px solid black;
             max-width: 100%;
             .projectIntro {
                
