@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Noto+Sans+KR&family=Sriracha&display=swap');
+
+// font-family: 'DM Serif Display', serif;
+// font-family: 'Kalam', cursive;
+// font-family: 'Noto Sans KR', sans-serif;
+// font-family: 'Sriracha', cursive;
+.container {
+    // background-color: #e9e6e4;
+	// display: grid;
+	.background {    
+    // filter: grayscale(100%) contrast(80%);
+    position: relative; 
+    height: 750px;
+    .navBar {
+        font-family: 'DM Serif Display', serif;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        .navBarLogo {
+            position: relative;
+            z-index: 1;
+            font-size: 25px;            
+        }
+        .navBarMenu {
+            display: flex;
+            position: relative;
+            left: -10px; 
+        .navBarList {
+            z-index: 1;
+            padding: 8px 12px;
+            margin: 0 20px;
+            font-size: 20px;
+            }
+        }       
+    }
+    .navBarProfileBox { 
+        box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+        // border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto;
+        width: 700px;
+        max-width: 100%;
+        font-family: 'Noto Sans KR', sans-serif;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        z-index: 1;                 
+        display: grid;
+        padding: 20px;
+    .navBarProfileName {   
+        font-size: 40px;
+        margin: 10px;
+            }
+    .navBarProfileIntroOne {
+        font-size: 25px;
+        margin: 10px;
+      }
+      .navBarProfileIntroTwo {
+        font-size: 25px;
+        margin: 10px;
+      }      
+    }	
+ }
+
+ .sliderBox {     
+    position: absolute; 
+    right: 0px; 
+    top: 100px;
+    width: 500px;
+	margin: 80px;
+	border: 1px solid black;
+    .imgOneBox {
+       
+        .imgOne {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .imgTwoBox {
+        .imgTwo {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+     } 
+     .imgThrBox {
+        .imgThr {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+    } 
+  }
+}
