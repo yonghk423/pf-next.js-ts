@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Noto+Sans+KR&family=Sriracha&display=swap');
 
 // font-family: 'DM Serif Display', serif;
 // font-family: 'Kalam', cursive;
+// font-family: 'Noto Sans KR', sans-serif;
 // font-family: 'Sriracha', cursive;
 
 
@@ -38,20 +39,29 @@
         margin: 20px;
         .projectBox {          
           border: 5px solid black;
-          background-color: #e9e6e4;;
+          // background-color: #e9e6e4;;
           // border: 1px solid black;
           display: grid; 
           grid-template-areas: 'projectTitleBox projectTitleBox';
           .projectTitleBox {
-            background-color: #e9e6e4;
+            font-family: 'Noto Sans KR', sans-serif;
+            // background-color: #e9e6e4;
             grid-area: projectTitleBox; 
             // border: 1px solid black;
+            margin: 10px;
              .projectTitle {
-                             
+                font-size: 40px;
+              }
+              .projectSubTitle {
+                font-size: 20px;
+              }
+              .projectDetail {
+                font-size: 20px;
               }
           }         
            
           .projectImg {
+            margin: 10px;
             max-width: 100%;
             width: 650px;
             }           
@@ -60,12 +70,13 @@
             background-color: #e9e6e4;
             // border: 1px solid black;
             max-width: 100%;
+            margin: 10px;
             .projectIntro {
                
             }
             .projectIntroTextBox {
               display: grid;
-              grid-template-columns: auto auto;                
+              grid-template-columns: auto auto;
             }
           }            
         }

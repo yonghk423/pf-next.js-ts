@@ -60,7 +60,7 @@ import "slick-carousel/slick/slick-theme.css";
                 layout="fill" objectFit="cover" objectPosition="center"
                 />                 
               </div>
-              <div>꾸준함 가치를 믿습니다.</div>
+              <div>꾸준함의 가치를 믿습니다.</div>
             </div>
             <div className={styles.imgThrBox}>
               <div className={styles.imgThr}>
