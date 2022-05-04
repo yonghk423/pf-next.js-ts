@@ -75,8 +75,16 @@
             width: 500px;
             height: 400px;
         }
-        .imgOneIntro {
+        .imgOneIntroBox {
+          .imgOneIntroTitle {
+            text-align: center;
+            margin: 5px;
+            font-size: 20px;
 
+          }
+          .imgOneIntro {
+            margin: 5px;
+          }
         }
     }
     .imgTwoBox {
@@ -85,8 +93,15 @@
             width: 500px;
             height: 400px;
         }
-        .imgTwoIntro {
-
+        .imgTwoIntroBox {
+          .imgTwoIntroTitle {
+            text-align: center;
+            margin: 5px;
+            font-size: 20px;
+          }
+          .imgTwoIntro {
+            margin: 5px;
+          }
         }
      } 
      .imgThrBox {
@@ -95,8 +110,15 @@
             width: 500px;
             height: 400px;
         }
-        .imgThrIntro {
-            
+        .imgThrIntroBox {
+            .imgThrIntroTitle {
+              text-align: center;
+              margin: 5px;
+              font-size: 20px;
+            }
+            .imgThrIntro {
+              margin: 5px;
+            }
         }
     } 
   }

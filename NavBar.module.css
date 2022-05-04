@@ -84,15 +84,45 @@
   height: 400px;
 }
 
+.container .sliderBox .imgOneBox .imgOneIntroBox .imgOneIntroTitle {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.container .sliderBox .imgOneBox .imgOneIntroBox .imgOneIntro {
+  margin: 5px;
+}
+
 .container .sliderBox .imgTwoBox .imgTwo {
   position: relative;
   width: 500px;
   height: 400px;
 }
 
+.container .sliderBox .imgTwoBox .imgTwoIntroBox .imgTwoIntroTitle {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.container .sliderBox .imgTwoBox .imgTwoIntroBox .imgTwoIntro {
+  margin: 5px;
+}
+
 .container .sliderBox .imgThrBox .imgThr {
   position: relative;
   width: 500px;
   height: 400px;
+}
+
+.container .sliderBox .imgThrBox .imgThrIntroBox .imgThrIntroTitle {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.container .sliderBox .imgThrBox .imgThrIntroBox .imgThrIntro {
+  margin: 5px;
 }
 /*# sourceMappingURL=NavBar.module.css.map */

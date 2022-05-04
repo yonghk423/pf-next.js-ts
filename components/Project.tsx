@@ -35,7 +35,9 @@ export default function Project() {
                   <Image 
                 src="/portfolio.jpeg"
                 alt=""
-                layout="fill" objectFit="cover" objectPosition="center"
+                layout="fill" 
+                // objectFit="cover" 
+                // objectPosition="center"                
                 />  
                 </div>                   
                 <div className={styles.projectIntroBox}>
@@ -73,7 +75,9 @@ export default function Project() {
                   <Image 
                 src="/keepmemory.jpeg"
                 alt=""
-                layout="fill" objectFit="cover" objectPosition="center"
+                layout="fill" 
+                // objectFit="cover" 
+                // objectPosition="center"
                 />  
                 </div>               <div className={styles.projectIntroBox}>
                   <div className={styles.projectIntro}>커피를 워낙 좋아하다 보니 카페를 자주가곤 합니다. 카페마다 감성을 담은 <br></br> 사진을 찍는것을 좋아하다보니 이것을 컨셉으로 해서 웹사이트를 만들면 좋을 것 <br></br> 같다는 생각으로 웹사이트를 개발하게 되었습니다.</div>
@@ -110,7 +114,9 @@ export default function Project() {
                   <Image 
                 src="/naramal.jpeg"
                 alt=""
-                layout="fill" objectFit="cover" objectPosition="center"
+                layout="fill" 
+                // objectFit="cover" 
+                // objectPosition="center"
                 />  
                 </div>
                 <div className={styles.projectIntroBox}>
