@@ -2,6 +2,13 @@ import styles from "./NaraMal.module.scss"
 
 export default function NaraMal() {
     return (
+        <>
+        <div>
+          <div>추억을 담다</div>
+          <div>Deployment URL</div>
+          <div>프로젝트를 통해 얻은 것</div>
+          <div>프로젝트를 통해~~~~</div>
+        </div>
         <div>
             <div>MyPage UI 디자인 및 데이터 설정(Axios, useState, useEffect 활용)</div>
             <div>MyPage UI는 아코디언 메뉴 형식으로 구성하였습니다. MyPage는 기본적으로 회원의 email, name, image, mileage 와 구매내역 내가 만든 문제를 볼 수가 있습니다. 처음 데이터 초기값 설정과 데이터를 어떤 방식으로 받아 와야 할지 고민하였습니다. 구현 방법으로 HTTP 비동기 통신 라이브러리인 Axios와 React Hooks API인 useState와 useEffect를 사용하였습니다.                
@@ -35,6 +42,6 @@ export default function NaraMal() {
                 깃허브 구글 로그인 버튼 같은 경우 직접 만들어야 했기 때문에 처음에는 까다로웠지만 큰 경험이었던 것 같습니다. 또한 여러 디자인들을 참고하며 최대한 사용자가 직관적으로 봤을 때 편안함을 갖을 수 있도록 폰트 사이즈, 글자 간격, 모달창 크기 등 팀원들의 조언을 받으며 최적의 상태로 수정하며 개선하였습니다.
             </div>
         </div>
-        
+        </>
     )
 }

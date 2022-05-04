@@ -1,3 +1,92 @@
 .container {
-    
+    border: 1px solid rgb(78, 156, 137);
+    margin: 20px;
+    .projectIntroBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .projectIntroTitle {
+            margin: 10px;
+        }
+        .projectIntroDeploy {
+            margin: 10px;
+        }
+        .projectIntroExpTitle {
+            margin: 10px;
+        }
+        .projectIntroExp {
+            margin: 10px;
+        }
+    }
+    .projectExplainBox {
+        border: 1px solid rgb(78, 156, 137);
+        .typeScriptBox {
+            border: 1px solid rgb(78, 156, 137);
+            margin: 10px;
+            .typeScriptMainTitle {
+                margin: 10px;
+            }
+            .typeScriptTitleOne {
+                margin: 10px;
+            }
+            .typeScriptTitleOneIntro {
+                margin: 10px;
+            }
+            .typeScriptTitleTwo {
+                margin: 10px
+            }
+            .typeScriptTitleTwoIntro {
+                margin: 10px;
+            }
+            .typeScriptTitleThr {
+                margin: 10px;
+            }
+            .typeScriptTitleThrIntro {
+                margin: 10px;
+            }
+        }
+        .reduxBox {
+            border: 1px solid rgb(78, 156, 137);
+            margin: 10px;
+            .reduxTitle {
+                margin: 10px;
+            }
+            .reduxIntro {
+                margin: 10px;
+            }
+        }
+        .functionIntroBox {
+            border: 1px solid rgb(78, 156, 137);
+            margin: 10px;
+            .functionIntroTitleOne {
+                margin: 10px;
+            }
+            .functionIntroOne {
+                margin: 10px;
+            }
+            .functionIntroTitleTwo {
+                margin: 10px;
+            }
+            .functionIntroTwo {
+                margin: 10px;
+            }
+            .functionIntroTitleThr {
+                margin: 10px;
+            }
+            .functionIntroThr {
+                margin: 10px;
+            }
+            .functionIntroTitleFour {
+                margin: 10px;
+            }
+            .functionIntroFour {
+                margin: 10px;
+            }
+            .functionIntroTitleFive {
+                margin: 10px;
+            }
+            .functionIntroFive {
+                margin: 10px;
+            }
+        }
+    }
 }

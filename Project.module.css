@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Noto+Sans+KR&family=Sriracha&display=swap");
+.projectMainTitle {
+  font-family: 'Sriracha', cursive;
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+  background-color: #e9e6e4;
+  margin: 20px;
+}
+
+.container {
+  border: 5px solid gray;
+  border-radius: 40px;
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  background-color: black;
+}
+
+.container .camera {
+  border: 1px solid black;
+  background-color: gray;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+  position: relative;
+  top: 10px;
+}
+
+.container .laptop {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.container .laptop .projectBox {
+  border: 5px solid black;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'projectTitleBox projectTitleBox';
+}
+
+.container .laptop .projectBox .projectTitleBox {
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: projectTitleBox;
+  margin: 10px;
+}
+
+.container .laptop .projectBox .projectTitleBox .projectTitle {
+  font-size: 40px;
+}
+
+.container .laptop .projectBox .projectTitleBox .projectSubTitle {
+  font-size: 20px;
+}
+
+.container .laptop .projectBox .projectTitleBox .projectDetail {
+  font-size: 20px;
+}
+
+.container .laptop .projectBox .projectImg {
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+  max-width: 100%;
+  width: 650px;
+}
+
+.container .laptop .projectBox .projectIntroBox {
+  background-color: #e9e6e4;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntro {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox {
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroMajor {
+  margin: 5px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroGitHub {
+  margin: 5px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroURL {
+  margin: 5px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroFront {
+  margin: 5px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroBack {
+  margin: 5px;
+}
+
+.container .laptop .projectBox .projectIntroBox .projectIntroTextBox .projectIntroDeploy {
+  margin: 5px;
+}
+/*# sourceMappingURL=Project.module.css.map */

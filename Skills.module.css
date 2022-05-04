@@ -1,7 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Sriracha&display=swap");
+.skillsBox .skillsTitle {
+  font-family: 'Sriracha', cursive;
+  position: relative;
+  text-align: center;
+  background-color: #e9e6e4;
+  font-size: 45px;
+  margin: 20px;
+}
+
 .skillsBox .skillsBoxList {
+  font-family: 'Sriracha', cursive;
+  position: relative;
+  background-color: #e9e6e4;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 20px;
+}
+
+.skillsBox .skillsBoxList .frontBox {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontTitle {
+  margin: 10px;
+  font-size: 35px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontList {
+  font-size: 20px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontList .js {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontList .ts {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontList .redux {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .frontBox .frontList .scss {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .backDeployBox {
+  margin: 10px;
+}
+
+.skillsBox .skillsBoxList .backDeployBox .backTitle {
+  margin: 10px;
+  font-size: 35px;
+}
+
+.skillsBox .skillsBoxList .backDeployBox .backList {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.skillsBox .skillsBoxList .backDeployBox .deployTitle {
+  margin: 10px;
+  font-size: 35px;
+}
+
+.skillsBox .skillsBoxList .backDeployBox .deployList {
+  margin: 10px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=Skills.module.css.map */

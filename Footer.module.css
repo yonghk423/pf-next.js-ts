@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&display=swap");
+.footerBox {
+  font-family: 'DM Serif Display', serif;
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  height: 120px;
+  justify-items: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.footerBox .footerInfo {
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=Footer.module.css.map */
