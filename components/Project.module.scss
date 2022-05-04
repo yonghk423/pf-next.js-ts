@@ -7,7 +7,7 @@
 
 
 .projectMainTitle {
-  font-family: 'Kalam', cursive;
+  font-family: 'Sriracha', cursive;
   position: relative;
   text-align: center;
   font-size: 45px;
@@ -34,16 +34,16 @@
     }
     .laptop {      
         background-color: white;
-        border: 1px solid black;
-        text-align: center;
+        border: 1px solid black;        
         margin: 20px;
-        .projectBox {          
+        .projectBox {  
           border: 5px solid black;
           // background-color: #e9e6e4;;
           // border: 1px solid black;
           display: grid; 
           grid-template-areas: 'projectTitleBox projectTitleBox';
           .projectTitleBox {
+            text-align: center;
             font-family: 'Noto Sans KR', sans-serif;
             // background-color: #e9e6e4;
             grid-area: projectTitleBox; 
@@ -72,30 +72,31 @@
             max-width: 100%;
             margin: 10px;
             .projectIntro {
-               font-size: 20px;
-               margin: 10px;
+               font-size: 18px;
+               margin: 20px;
             }
             .projectIntroTextBox {
+              margin: 20px;
               display: grid;
               grid-template-columns: auto auto;
               .projectIntroMajor {
-
+                margin: 5px;
               }
               .projectIntroGitHub {
-
+                margin: 5px;
               }
               .projectIntroURL {
-
+                margin: 5px;
               }
               .projectIntroFront {
-
+                margin: 5px;
               }
               .projectIntroBack {
-
+                margin: 5px;
               }
               .projectIntroDeploy {
-
-              }
+                margin: 5px;
+              } 
             }
           }            
         }
