@@ -5,8 +5,17 @@ import { useRouter } from 'next/router';
 
 export default function Project() {
   const router = useRouter();
-  const onClick = () => {
+  
+  const onClickPortfolio = () => {
+    router.push('/DetailPages/Portfolio')
+  }
 
+  const onClickKeepMemories = () => {
+    router.push('/DetailPages/KeepMemories')
+  }
+
+  const onClickNaraMal = () => {
+    router.push('/DetailPages/NaraMal')
   }
     return (
         <>
@@ -19,12 +28,12 @@ export default function Project() {
                   <div className={styles.projectTitle}>포트폴리오 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.12.01(1인 개인 프로젝트)</div>
                   <Link href={'/DetailPages/Portfolio'}>
-                    <div className={styles.projectDetail}>자세히 보기</div>
+                    <a><div className={styles.projectDetail}>자세히 보기</div></a>
                   </Link>
                 </div>
-                <div className={styles.projectImg}>
+                <div onClick={onClickPortfolio} className={styles.projectImg}>
                   <Image 
-                src="/run.jpeg"
+                src="/portfolio.jpeg"
                 alt=""
                 layout="fill" objectFit="cover" objectPosition="center"
                 />  
@@ -57,10 +66,10 @@ export default function Project() {
                   <div className={styles.projectTitle}>추억을 담다 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.12.01(1인 개인 프로젝트)</div>
                   <Link href={'/DetailPages/KeepMemories'}>
-                    <div className={styles.projectDetail}>자세히 보기</div>
+                    <a><div className={styles.projectDetail}>자세히 보기</div></a>
                   </Link>
                 </div>
-                <div className={styles.projectImg}>
+                <div onClick={onClickKeepMemories} className={styles.projectImg}>
                   <Image 
                 src="/keepmemory.jpeg"
                 alt=""
@@ -94,10 +103,10 @@ export default function Project() {
                   <div className={styles.projectTitle}>나랏말싸미 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.11 - 2021.12(4인/4주)</div>
                   <Link  href={'/DetailPages/NaraMal'}>
-                  <div className={styles.projectDetail}>자세히 보기(맡은 포지션 및 역할)</div>
+                  <a><div className={styles.projectDetail}>자세히 보기(맡은 포지션 및 역할)</div></a>
                   </Link>
                 </div>
-                <div className={styles.projectImg}>
+                <div onClick={onClickNaraMal} className={styles.projectImg}>
                   <Image 
                 src="/naramal.jpeg"
                 alt=""
