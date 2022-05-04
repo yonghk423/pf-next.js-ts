@@ -69,26 +69,34 @@
     width: 500px;
 	margin: 80px;
 	border: 1px solid black;
-    .imgOneBox {
-       
+    .imgOneBox {       
         .imgOne {
             position: relative;
             width: 500px;
-            height: 500px;
+            height: 400px;
+        }
+        .imgOneIntro {
+
         }
     }
     .imgTwoBox {
         .imgTwo {
             position: relative;
             width: 500px;
-            height: 500px;
+            height: 400px;
+        }
+        .imgTwoIntro {
+
         }
      } 
      .imgThrBox {
         .imgThr {
             position: relative;
             width: 500px;
-            height: 500px;
+            height: 400px;
+        }
+        .imgThrIntro {
+            
         }
     } 
   }

@@ -50,7 +50,7 @@ import "slick-carousel/slick/slick-theme.css";
                 layout="fill" objectFit="cover" objectPosition="center"
                 />   
               </div>
-              <div>소통하기 위해 노력합니다.</div>
+              <div className={styles.imgOneIntro}>소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다.소통하기 위해 노력합니다. 소통하기 위해 노력합니다.</div>
             </div>
             <div className={styles.imgTwoBox}>
               <div className={styles.imgTwo}>
@@ -60,7 +60,7 @@ import "slick-carousel/slick/slick-theme.css";
                 layout="fill" objectFit="cover" objectPosition="center"
                 />                 
               </div>
-              <div>꾸준함의 가치를 믿습니다.</div>
+              <div className={styles.imgTwoIntro}>꾸준함의 가치를 믿습니다.</div>
             </div>
             <div className={styles.imgThrBox}>
               <div className={styles.imgThr}>
@@ -70,7 +70,7 @@ import "slick-carousel/slick/slick-theme.css";
                 layout="fill" objectFit="cover" objectPosition="center"
                 />  
               </div>
-              <div>쉽게 포기하지 않습니다.</div>
+              <div className={styles.imgThrIntro}>쉽게 포기하지 않습니다.</div>
             </div>          
           </Slider> 
         </div>  

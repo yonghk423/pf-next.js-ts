@@ -81,18 +81,18 @@
 .container .sliderBox .imgOneBox .imgOne {
   position: relative;
   width: 500px;
-  height: 500px;
+  height: 400px;
 }
 
 .container .sliderBox .imgTwoBox .imgTwo {
   position: relative;
   width: 500px;
-  height: 500px;
+  height: 400px;
 }
 
 .container .sliderBox .imgThrBox .imgThr {
   position: relative;
   width: 500px;
-  height: 500px;
+  height: 400px;
 }
 /*# sourceMappingURL=NavBar.module.css.map */
