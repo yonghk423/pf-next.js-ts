@@ -2,7 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
-const data = [
+const detailPagesKeepMemories = [
     {
         id: '1',
         projectIntroTitle : '추억을 담다',
@@ -36,8 +36,10 @@ const data = [
         
         functionIntroTitleFive : 'React.memo를 사용하여 컴포넌트 성능 최적화',
         functionIntroFive : '기존의 값을 직접 수정하지 않으면서 새로운 값을 만들어내는 불변성을 지키는 과정을 유지해야만 값이 새로워져도 바뀐 것을 감지하기 때문에 코드를 구성함에 있어서 객체나 배열 내부의 값을 복사할 때는 얕은 복사(shalow copy)를 하여 렌더링하는 과정에서 특정 값이 바뀌었을 때만 연산을 실행하고 원하는 값이 바뀌지 않았다면 이전에 연산했던 결과를 다시 사용하는 방식으로서 React.memo를 사용하여 리렌더링 성능이 최적화 되도록 하였습니다.'
-
     }
 ]
+router.get('/', (req, res) => {
+    res.status(200).send(detailPagesKeepMemories);
+})
 
 export default router;
