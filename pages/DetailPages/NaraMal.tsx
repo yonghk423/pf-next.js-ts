@@ -1,5 +1,5 @@
 import styles from "./NaraMal.module.scss"
-import { InterfaceNara } from "../interface/InterfaceNara";
+import { InterfaceNara } from "../../lib/InterfaceNara";
 import { InferGetServerSidePropsType } from 'next'
 
 export default function NaraMal({ data }:InferGetServerSidePropsType<typeof getServerSideProps>) {
