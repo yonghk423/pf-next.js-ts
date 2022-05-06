@@ -13,7 +13,6 @@
   font-size: 45px;
   background-color: #e9e6e4;
   margin: 20px;
-  // border: 1px solid black;
 }
 .container {   
     border: 5px solid gray;
@@ -37,26 +36,36 @@
         border: 1px solid black;        
         margin: 20px;
         .projectBox {  
-          border: 5px solid black;
-          // background-color: #e9e6e4;;
-          // border: 1px solid black;
+          border: 5px solid black;          
           display: grid; 
           grid-template-areas: 'projectTitleBox projectTitleBox';
-          .projectTitleBox {
+          .projectTitleBox {            
+            justify-content: center;
             text-align: center;
             font-family: 'Noto Sans KR', sans-serif;
-            // background-color: #e9e6e4;
             grid-area: projectTitleBox; 
-            // border: 1px solid black;
             margin: 10px;
+            border: 1px solid #002171;  
+
              .projectTitle {
+                border: 1px solid black;         
                 font-size: 40px;
+                background-color:  #01579b;
+                color: white;
               }
               .projectSubTitle {
                 font-size: 20px;
+                // border: 1px solid black;
               }
               .projectDetail {
                 font-size: 20px;
+                // border: 1px solid black;
+                padding: 20px;
+                &:hover {
+                  background-color: #f8bbd0;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  border : 2px solid #fce4ec;
+                }
               }
           }
 
@@ -66,13 +75,13 @@
             margin: 10px;
             max-width: 100%;
             width: 650px;
+            border: 1.5px solid black;
             }           
             
-          .projectIntroBox {
-            background-color: #e9e6e4;
-            // border: 1px solid black;
+          .projectIntroBox {            
             max-width: 100%;
             margin: 10px;
+            border: 1.5px solid black;
             .projectIntro {
                font-size: 18px;
                margin: 20px;
