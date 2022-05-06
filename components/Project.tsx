@@ -15,7 +15,7 @@ export default function Project() {
   }
 
   const onClickNaraMal = () => {
-    router.push('/DetailPages/NaraMal')
+    router.push('/DetailPages/Naramal')
   }
     return (
         <>
