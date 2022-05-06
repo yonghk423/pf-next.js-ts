@@ -1,4 +1,4 @@
-export interface Nara {
+export interface InterfaceNara {
     projectIntroTitle: string,
     projectIntroDeploy: string,
     projectIntroExpTitle: string,

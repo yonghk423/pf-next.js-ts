@@ -1,5 +1,5 @@
 import styles from "./Naramal.module.scss"
-import { Nara } from "./interface/Nara";
+import { InterfaceNara } from "./interface/InterfaceNara";
 import { InferGetServerSidePropsType } from 'next'
 
 export default function Naramal({ data }:InferGetServerSidePropsType<typeof getServerSideProps>) {
@@ -45,7 +45,7 @@ export default function Naramal({ data }:InferGetServerSidePropsType<typeof getS
 
 export const getServerSideProps = async () => {
   const res = await fetch('https://yonghee-portfolio.herokuapp.com/detailPagesNaraMal')
-  const data: Nara = await res.json()
+  const data: InterfaceNara = await res.json()
   console.log(data)
   return {
     props: {

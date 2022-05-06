@@ -1,6 +1,6 @@
 import styles from "./keepMemories.module.scss"
 import { InferGetServerSidePropsType } from 'next'
-import { keepData } from "./interface/Keep"
+import { InterfaceKeep } from "./interface/InterfaceKeep"
 
 export default function KeepMemories({ data }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   // console.log(data);
@@ -47,7 +47,7 @@ export default function KeepMemories({ data }: InferGetServerSidePropsType<typeo
 
 export const getServerSideProps = async () => {
   const res = await fetch('https://yonghee-portfolio.herokuapp.com/detailPagesKeepMemories')
-  const data:keepData = await res.json()
+  const data:InterfaceKeep = await res.json()
   console.log(data)
   return {
     props: {

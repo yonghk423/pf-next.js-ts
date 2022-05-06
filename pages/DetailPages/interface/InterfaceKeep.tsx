@@ -1,4 +1,4 @@
-export interface keepData {
+export interface InterfaceKeep {
     projectIntroTitle:string;
     projectIntroDeploy:string;
     projectIntroExpTitle:string;
