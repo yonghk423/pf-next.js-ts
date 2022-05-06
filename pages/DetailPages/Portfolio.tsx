@@ -1,4 +1,4 @@
-import styles from "./Portfolio.module.scss"
+import styles from "./PortFolio.module.scss"
 
 export default function Portfolio() {
     return (

@@ -1,4 +1,4 @@
-import styles from "./Naramal.module.scss"
+import styles from "./NaraMal.module.scss"
 import { InterfaceNara } from "./interface/InterfaceNara";
 import { InferGetServerSidePropsType } from 'next'
 
