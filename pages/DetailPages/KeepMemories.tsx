@@ -1,6 +1,6 @@
 import styles from "./keepMemories.module.scss"
 import { InferGetServerSidePropsType } from 'next'
-import { InterfaceKeep } from "./interface/InterfaceKeep"
+import { InterfaceKeep } from "../interface/InterfaceKeep"
 
 export default function KeepMemories({ data }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   // console.log(data);
