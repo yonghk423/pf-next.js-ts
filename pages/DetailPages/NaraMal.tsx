@@ -1,8 +1,8 @@
-import styles from "./NaraMal.module.scss"
+import styles from "./Naramal.module.scss"
 import { InterfaceNara } from "../../lib/InterfaceNara";
 import { InferGetServerSidePropsType } from 'next'
 
-export default function NaraMal({ data }:InferGetServerSidePropsType<typeof getServerSideProps>) {
+export default function Naramal({ data }:InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
       <div className={styles.container}>   
         <div className={styles.projectIntroBox}>

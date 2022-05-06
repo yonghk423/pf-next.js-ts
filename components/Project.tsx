@@ -27,7 +27,7 @@ export default function Project() {
                 <div className={styles.projectTitleBox}>
                   <div className={styles.projectTitle}>포트폴리오 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.12.01(1인 개인 프로젝트)</div>
-                  <Link href={'/DetailPages/Portfolio'}>
+                  <Link href={'/DetailPages/PortFolio'}>
                     <a><div className={styles.projectDetail}>자세히 보기</div></a>
                   </Link>
                 </div>
@@ -107,7 +107,7 @@ export default function Project() {
                 <div className={styles.projectTitleBox}>
                   <div className={styles.projectTitle}>나랏말싸미 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.11 - 2021.12(4인/4주)</div>
-                  <Link  href={'/DetailPages/NaraMal'}>
+                  <Link  href={'/DetailPages/Naramal'}>
                   <a><div className={styles.projectDetail}>자세히 보기(맡은 포지션 및 역할)</div></a>
                   </Link>
                 </div>
