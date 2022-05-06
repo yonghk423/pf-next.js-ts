@@ -1,7 +1,8 @@
 import styles from "./Naramal.module.scss"
+import { InferGetServerSidePropsType } from 'next'
 
 export default function Naramal() {
-    return (
+  return (
       <div className={styles.container}>   
         <div className={styles.projectIntroBox}>
           <div className={styles.projectIntroTitle}>추억을 담다</div>
@@ -54,3 +55,14 @@ export default function Naramal() {
         </div>
     )
 }
+
+// export const getServerSideProps = async () => {
+//   const res = await fetch('https://yonghee-portfolio.herokuapp.com/detailPagesNaramal')
+//   const data = await res.json()
+//   console.log(data)
+//   return {
+//     props: {
+//       data,
+//     },
+//   }
+// }
