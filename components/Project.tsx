@@ -15,7 +15,7 @@ export default function Project() {
   }
 
   const onClickNaraMal = () => {
-    router.push('/DetailPages/Naramal')
+    router.push('/DetailPages/NaraMal')
   }
     return (
         <>
@@ -107,7 +107,7 @@ export default function Project() {
                 <div className={styles.projectTitleBox}>
                   <div className={styles.projectTitle}>나랏말싸미 웹사이트</div>
                   <div className={styles.projectSubTitle}>2021.11 - 2021.12(4인/4주)</div>
-                  <Link  href={'/DetailPages/Naramal'}>
+                  <Link  href={'/DetailPages/NaraMal'}>
                   <a><div className={styles.projectDetail}>자세히 보기(맡은 포지션 및 역할)</div></a>
                   </Link>
                 </div>
