@@ -35,15 +35,12 @@
         background-color: white;
         border: 1px solid black;        
         margin: 20px;
-        .projectBox {  
-          border: 5px solid black;          
-          display: grid; 
-          grid-template-areas: 'projectTitleBox projectTitleBox';
-          .projectTitleBox {            
+
+        .projectTitleBox {            
             justify-content: center;
             text-align: center;
             font-family: 'Noto Sans KR', sans-serif;
-            grid-area: projectTitleBox; 
+            // grid-area: projectTitleBox; 
             margin: 10px;
             border: 1px solid #002171;  
 
@@ -69,18 +66,24 @@
               }
           }
 
+        .projectBox {  
+          // border: 1px solid black;          
+          display: grid; 
+          margin: 10px;
+          grid-template-columns: auto auto;
           .projectImg {
             position: relative;
             cursor: pointer;
-            margin: 10px;
+            // margin: 10px;
             max-width: 100%;
             width: 650px;
             border: 1.5px solid black;
+            border-right: none;
             }           
             
           .projectIntroBox {            
             max-width: 100%;
-            margin: 10px;
+            // margin: 10px;
             border: 1.5px solid black;
             .projectIntro {
                font-size: 18px;
@@ -113,3 +116,128 @@
         }
     }                    
 }
+//--------------------------------------------------------------------------
+@media (max-width: 820px) { 
+  .container {
+    .laptop {
+      
+      .camera {
+
+      }     
+      .projectTitleBox {
+
+      } 
+      .projectBox {  
+          display: grid; 
+          margin: 10px;
+          grid-template-columns: auto;
+          justify-items: center;
+
+          .projectImg {            
+            position: relative;
+            cursor: pointer;
+            // margin: 10px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 300px;
+            border: none;
+            }           
+            
+          .projectIntroBox {
+            border: none;            
+            max-width: 100%;
+            // margin: 10px;
+            .projectIntro {
+               font-size: 18px;
+               margin: 20px;
+            }
+            .projectIntroTextBox {
+              margin: 20px;
+              display: grid;
+              grid-template-columns: auto auto;
+              .projectIntroMajor {
+                margin: 5px;
+              }
+              .projectIntroGitHub {
+                margin: 5px;
+              }
+              .projectIntroURL {
+                margin: 5px;
+              }
+              .projectIntroFront {
+                margin: 5px;
+              }
+              .projectIntroBack {
+                margin: 5px;
+              }
+              .projectIntroDeploy {
+                margin: 5px;
+              } 
+            }
+          }            
+        } 
+    }
+  }
+  
+}
+
+//--------------------------------------------------------------------
+@media (max-width: 390px) { 
+  .container {
+    .laptop {
+      
+      .camera {
+
+      }     
+      .projectTitleBox {
+
+      } 
+      .projectBox {  
+          display: grid; 
+          margin: 10px;
+          grid-template-columns: auto;
+          justify-items: center;
+
+          .projectImg {            
+            width: 200px;
+            height: 200px;
+            }           
+            
+          .projectIntroBox {
+            border: none;            
+            max-width: 100%;
+            // margin: 10px;
+            .projectIntro {
+               font-size: 18px;
+               margin: 20px;
+            }
+            .projectIntroTextBox {
+              margin: 20px;
+              display: grid;
+              grid-template-columns: auto auto;
+              .projectIntroMajor {
+                margin: 5px;
+              }
+              .projectIntroGitHub {
+                margin: 5px;
+              }
+              .projectIntroURL {
+                margin: 5px;
+              }
+              .projectIntroFront {
+                margin: 5px;
+              }
+              .projectIntroBack {
+                margin: 5px;
+              }
+              .projectIntroDeploy {
+                margin: 5px;
+              } 
+            }
+          }            
+        } 
+    }
+  }
+  
+}
+ 

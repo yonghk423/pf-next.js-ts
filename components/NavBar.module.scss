@@ -48,9 +48,9 @@
         display: grid;
         padding: 20px;
         &:hover {
-                  background-color: #01579b;
-                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-                  color: white;
+            background-color: #01579b;
+            transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+            color: white;
                 }
         
     .navBarProfileName {   
@@ -61,20 +61,16 @@
         font-size: 25px;
         margin: 10px;
         &:hover {
-                  // background-color: #8aacc8;
-                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-                  color: #000000;
-                  // box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          color: #000000;
                 }
       }
       .navBarProfileIntroTwo {
         font-size: 25px;
         margin: 10px;
         &:hover {
-                  // background-color: #8aacc8;
-                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-                  color: #000000;
-                  // box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          color: #000000;
                 }
       }      
     }	
@@ -83,7 +79,7 @@
  .sliderBox {     
     position: absolute; 
     right: 0px; 
-    top: 100px;
+    top: 20px;
     width: 500px;
 	  margin: 80px;
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
@@ -99,11 +95,12 @@
           .imgOneIntroTitle {
             text-align: center;
             margin: 5px;
-            font-size: 20px;
+            font-size: 25px;
 
           }
           .imgOneIntro {
-            margin: 5px;
+            margin: 10px;
+            font-size: 18px;
           }
         }
     }
@@ -117,10 +114,11 @@
           .imgTwoIntroTitle {
             text-align: center;
             margin: 5px;
-            font-size: 20px;
+            font-size: 25px;
           }
           .imgTwoIntro {
-            margin: 5px;
+            margin: 10px;
+            font-size: 18px;
           }
         }
      } 
@@ -134,12 +132,17 @@
             .imgThrIntroTitle {
               text-align: center;
               margin: 5px;
-              font-size: 20px;
+              font-size: 25px;
             }
             .imgThrIntro {
-              margin: 5px;
+              margin: 10px;
+              font-size: 18px;
             }
         }
     } 
   }
+}
+
+@media (max-width: 820px) { 
+
 }

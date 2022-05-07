@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4500,
+      autoplaySpeed: 5000,
       pauseOnHover: true,
       arrows: false,
     };
