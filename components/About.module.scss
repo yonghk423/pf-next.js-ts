@@ -4,21 +4,23 @@
 // font-family: 'Kalam', cursive;
 // font-family: 'Sriracha', cursive;
 
-.aboutBox {    
+.aboutBox {
+  background-color:  #ffc1e3;
     .aboutTitle {
         font-family: 'Sriracha', cursive;
         // border: 1px solid black;
         text-align: center;
         font-size: 45px;
-        margin: 20px;    
+        // margin: 20px;    
     }
     .aboutBoxList{
         font-family: 'Sriracha', cursive;
-        margin: 20px;
+        // margin: 20px;
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;  
         .contactBox {
+          margin: 10px;
             .contact {
               font-size: 35px;
               margin: 10px;
@@ -46,6 +48,7 @@
             }
           }
         .archiveBox {
+          margin: 10px;
             .archive {
                 font-size: 35px;
                 margin: 10px;
