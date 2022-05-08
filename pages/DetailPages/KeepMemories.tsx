@@ -1,11 +1,15 @@
 import styles from "./keepMemories.module.scss"
 import { InferGetServerSidePropsType } from 'next'
 import { InterfaceKeep } from "../../lib/InterfaceKeep"
+import Head from 'next/head'
 
 export default function KeepMemories({ data }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   // console.log(data);
   return (      
-      <div className={styles.container}>        
+      <div className={styles.container}>
+        <Head>
+          <title>KeepMemories Page</title>
+        </Head>        
         <div className={styles.projectIntroBox}>
           <div className={styles.projectIntroTitle}>{data.projectIntroTitle}</div>
           <div className={styles.projectIntroExpTitle}>{data.projectIntroExpTitle}</div>

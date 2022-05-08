@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
     res.send("hello");
 })
 
+app.use('/detailPagesPortFolio')
 app.use('/detailPagesKeepMemories', KeepMemoriesRouter);
 app.use('/detailPagesNaramal', NaraMalRouter);
 

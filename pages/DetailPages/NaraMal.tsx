@@ -1,10 +1,14 @@
 import styles from "./NaraMal.module.scss"
 import { InterfaceNara } from "../../lib/InterfaceNara";
 import { InferGetServerSidePropsType } from 'next'
+import Head from 'next/head'
 
 export default function NaraMal({ data }:InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
-      <div className={styles.container}>   
+      <div className={styles.container}>
+        <Head>
+          <title>NaraMal Page</title>
+        </Head>   
         <div className={styles.projectIntroBox}>
           <div className={styles.projectIntroTitle}>{data.projectIntroTitle}</div>
           <div className={styles.projectIntroExpTitle}>{data.projectIntroExpTitle}</div>
