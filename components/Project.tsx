@@ -41,11 +41,11 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/yonghk423/pf-next.js-ts'}>
-                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/pf-next.js-ts</div></a>
                     </Link>
                     <div className={styles.projectIntroURL}>URL</div>
                     <Link href={'https://pf-next-js-ts.vercel.app'}>
-                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://pf-next-js-ts.vercel.app</div></a>
                     </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
@@ -79,11 +79,11 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/yonghk423/keep-memories'}>
-                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/keep-memories</div></a>
                     </Link>
                     <div className={styles.projectIntroURL}>URL</div>
                     <Link href={'https://market-list-eight.vercel.app'}>
-                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://market-list-eight.vercel.app</div></a>
                     </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
@@ -117,11 +117,11 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>퀴즈 만들기, 퀴즈 맞추기, 마일리지를 이용한 상품구매</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/codestates/TheKing-sLetters'}>
-                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://github.com/codestates/TheKing-sLetters</div></a>
                     </Link>
                     <div className={styles.projectIntroURL}>URL</div>
                     <Link href={'https://thekingsletters.ml'}>
-                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                      <a><div className={styles.projectIntroGitHub}>https://thekingsletters.ml</div></a>
                     </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
