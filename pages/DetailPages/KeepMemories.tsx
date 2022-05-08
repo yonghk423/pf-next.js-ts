@@ -4,7 +4,6 @@ import { InterfaceKeep } from "../../lib/InterfaceKeep"
 import Head from 'next/head'
 
 export default function KeepMemories({ data }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  // console.log(data);
   return (      
       <div className={styles.container}>
         <Head>
@@ -36,9 +35,9 @@ export default function KeepMemories({ data }: InferGetServerSidePropsType<typeo
             <div className={styles.functionIntroOne}>{data.functionIntroOne}</div>
             <div className={styles.functionIntroTitleTwo}>{data.functionIntroTitleTwo}</div>
             <div className={styles.functionIntroTwo}>{data.functionIntroTwo}</div>
-            <div className={styles.functionIntroTitleThr}>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</div>
+            <div className={styles.functionIntroTitleThr}>{data.functionIntroTitleThr}</div>
             <div className={styles.functionIntroThr}>{data.functionIntroThr}</div>
-            <div className={styles.functionIntroTitleFour}>{data.functionIntroFour}</div>
+            <div className={styles.functionIntroTitleFour}>{data.functionIntroTitleFour}</div>
             <div className={styles.functionIntroFour}>{data.functionIntroFour}</div>
             <div className={styles.functionIntroTitleFive}>{data.functionIntroTitleFive}</div>
             <div className={styles.functionIntroFive}>{data.functionIntroFive}</div>
