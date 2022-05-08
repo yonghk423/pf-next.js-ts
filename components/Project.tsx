@@ -40,9 +40,13 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
-                    <div className={styles.projectIntroGitHub}>링크</div>
+                    <Link href={'https://github.com/yonghk423/pf-next.js-ts'}>
+                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                    </Link>
                     <div className={styles.projectIntroURL}>URL</div>
-                    <div className={styles.projectIntroURL}>링크</div>
+                    <Link href={'https://pf-next-js-ts.vercel.app'}>
+                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                    </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
                       TypeScript, Next.js, Axios, Sass(SCSS)
@@ -74,9 +78,13 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
-                    <div className={styles.projectIntroGitHub}>링크</div>
+                    <Link href={'https://github.com/yonghk423/keep-memories'}>
+                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                    </Link>
                     <div className={styles.projectIntroURL}>URL</div>
-                    <div className={styles.projectIntroURL}>링크</div>
+                    <Link href={'https://market-list-eight.vercel.app'}>
+                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                    </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
                       TypeScript, React.js, React Hooks API, Redux.js, <br></br> Redux-Thunk, Axios, Sass(SCSS)
@@ -108,9 +116,13 @@ export default function Project() {
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>퀴즈 만들기, 퀴즈 맞추기, 마일리지를 이용한 상품구매</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
-                    <div className={styles.projectIntroGitHub}>링크</div>
+                    <Link href={'https://github.com/codestates/TheKing-sLetters'}>
+                      <a><div className={styles.projectIntroGitHub}>Github</div></a>
+                    </Link>
                     <div className={styles.projectIntroURL}>URL</div>
-                    <div className={styles.projectIntroURL}>링크</div>
+                    <Link href={'https://thekingsletters.ml'}>
+                      <a><div className={styles.projectIntroGitHub}>URL</div></a>
+                    </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
                       JavaScript, React.js, React Hooks API, Axios <br></br> React Router, Styled-Components
