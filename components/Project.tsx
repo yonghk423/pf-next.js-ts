@@ -35,7 +35,7 @@ export default function Project() {
                   <Image src="/portfolio.jpeg" alt="" layout="fill"/>  
                 </div>                   
                 <div className={styles.projectIntroBox}>
-                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 Next.js 프레임워크를 사용하였습니다. React.js 라이브러리와 비교하며 이해도를 높이고 SEO 최적화와 SSR 방식을 도입함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
+                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 Next.js 프레임워크를 사용하였습니다. React.js 라이브러리와 비교하며 이해도를 높이고 SEO 최적화가 무엇인지 공부하며 SSR 방식을 도입함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
@@ -73,7 +73,7 @@ export default function Project() {
                   <Image src="/keepmemory.jpeg" alt="" layout="fill"/>  
                 </div>               
                 <div className={styles.projectIntroBox}>
-                  <div className={styles.projectIntro}>커피를 워낙 좋아하다 보니 카페를 자주가곤 합니다. 카페마다 감성을 담은 사진을 찍는것을 좋아하다보니 이것을 컨셉으로 해서 웹사이트를 만들면 좋을 것 같다는 생각으로 웹사이트를 개발하게 되었습니다.</div>
+                  <div className={styles.projectIntro}>개인프로젝트를 통해 React에 대한 기존에 알고 있던 지식을 활용하고 기능을 구현함으로써 개발 숙련도의 향상과 상태 관리의 중요성을 다시 깊게 이해하기 위해서 시작 하였습니다. 또한 카페마다 감성을 담은 사진을 찍는것을 좋아하다보니 이것을 컨셉으로 해서 웹사이트를 만들면 좋을 것 같다는 생각으로 웹사이트를 개발하게 되었습니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
@@ -111,7 +111,7 @@ export default function Project() {
                   <Image src="/naramal.jpeg" alt="" layout="fill"/>  
                 </div>
                 <div className={styles.projectIntroBox}>
-                  <div className={styles.projectIntro}>나랏말싸미는 우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다. 직접 퀴즈를 만들수 있으며 흥미를 유발하고 퀴즈를 풀고 맞춤에 따라 마일리지를 얻어 활용할 수 있는 즐거움을 배로 증가 시킬 것 입니다.</div>
+                  <div className={styles.projectIntro}>협업에서 중요한 소통과 맡은 역할에 대한 책임감을 느끼는 소중한 기회이자 경험이었습니다. 나랏말싸미는 우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다. 직접 퀴즈를 만들수 있으며 흥미를 유발하고 퀴즈를 풀고 맞춤에 따라 마일리지를 얻어 활용할 수 있는 즐거움을 배로 증가 시킬 것 입니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>퀴즈 만들기, 퀴즈 맞추기, 마일리지를 이용한 상품구매</div>
