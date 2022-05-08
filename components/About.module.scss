@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-// font-family: 'DM Serif Display', serif;
-// font-family: 'Kalam', cursive;
-// font-family: 'Sriracha', cursive;
+// font-family: 'Anton', sans-serif;
 
 .aboutBox {
   background-color:  #ffc1e3;
     .aboutTitle {
-        font-family: 'Sriracha', cursive;
+        font-family: 'Anton', sans-serif;
         // border: 1px solid black;
         text-align: center;
         font-size: 45px;
         // margin: 20px;    
     }
     .aboutBoxList{
-        font-family: 'Sriracha', cursive;
+        font-family: 'Anton', sans-serif;
         // margin: 20px;
         display: grid;
         grid-template-columns: auto auto;
@@ -35,12 +33,14 @@
               margin: 10px;
             }
             .code {
+              font-weight: bold;
               position: relative;
               top: 10px;
               font-size: 15px;
               margin: 10px;
             }
             .uni {
+              font-weight: bold;
               position: relative;
               top: 10px;
               font-size: 15px;

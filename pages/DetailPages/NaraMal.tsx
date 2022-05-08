@@ -7,7 +7,6 @@ export default function NaraMal({ data }:InferGetServerSidePropsType<typeof getS
       <div className={styles.container}>   
         <div className={styles.projectIntroBox}>
           <div className={styles.projectIntroTitle}>{data.projectIntroTitle}</div>
-          <div className={styles.projectIntroDeploy}>{data.projectIntroDeploy}</div>
           <div className={styles.projectIntroExpTitle}>{data.projectIntroExpTitle}</div>
           <div className={styles.projectIntroExp}>{data.projectIntroExp}</div>
         </div>

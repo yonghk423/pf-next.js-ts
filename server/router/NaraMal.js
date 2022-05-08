@@ -5,9 +5,8 @@ const router = express.Router();
 const detailPagesNaraMal = 
 {
     projectIntroTitle : '나랏말싸미',
-    projectIntroDeploy : 'Deployment URL',
     projectIntroExpTitle : '프로젝트를 통해 얻은 것',
-    projectIntroExp : '프로젝트를 통해~~~~',
+    projectIntroExp : '팀 프로젝트는 제가 개발자가 되기 위한 첫 과제였습니다. 맡은 역할에 대한 책임감, 지속적인 소통은 앞으로 개발자의 삶을 살아가는데 정말 중요하다는 것을 느꼈습니다. 특히 제가 맡은 기능을 시간안에 구현하지 못했을 때 팀원들에게 미안함, 끝까지 책임지고 하지 못한 것에 대한 자책도 많이 하게 되었습니다. 하지만 이것을 기회로 삼고 발전하는 계기로 만들고 싶었습니다. 그만큼 보완해야 될 것이 많다는 것은 성장 할 수 있는 폭도 컸던것 이기 때문입니다. 결론적으로 최선을 다하고 소통을 끊임없이 하며 끝까지 팀원들과 프로젝트를 잘 마무리 할수 있었습니다.',
     projectIntroOneTitle : 'MyPage UI 디자인 및 데이터 설정(Axios, useState, useEffect 활용)',
     projectIntroOne : 'MyPage UI는 아코디언 메뉴 형식으로 구성하였습니다. MyPage는 기본적으로 회원의 email, name, image, mileage 와 구매내역 내가 만든 문제를 볼 수가 있습니다. 처음 데이터 초기값 설정과 데이터를 어떤 방식으로 받아 와야 할지 고민하였습니다. 구현 방법으로 HTTP 비동기 통신 라이브러리인 Axios와 React Hooks API인 useState와 useEffect를 사용하였습니다.',
     projectIntroTwoTitle : 'Axios, useState, useEffect 왜 사용하였는가',
