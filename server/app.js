@@ -1,6 +1,7 @@
 import express from 'express';
 import KeepMemoriesRouter from './router/KeepMemories.js';
 import NaraMalRouter from './router/NaraMal.js'
+import PortfolioRouter from './router/Portfolio.js'
 
 const app = express();
 
@@ -8,7 +9,7 @@ app.get('/', (req, res) => {
     res.send("hello");
 })
 
-app.use('/detailPagesPortFolio')
+app.use('/detailPagesPortfolio', PortfolioRouter);
 app.use('/detailPagesKeepMemories', KeepMemoriesRouter);
 app.use('/detailPagesNaramal', NaraMalRouter);
 

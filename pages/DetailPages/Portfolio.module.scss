@@ -1,0 +1,70 @@
+.container {
+    border: 1px solid rgb(78, 156, 137);
+    margin: 20px;
+    .projectIntroBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .projectIntroTitle {
+            margin: 10px;
+        }
+        .projectIntroDeploy {
+            margin: 10px;
+        }
+        .projectIntroExpTitle {
+            margin: 10px;
+        }
+        .projectIntroExp {
+            margin: 10px;
+        }
+    }
+    .ssrIntroBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .ssrIntroTitle {
+            margin: 10px;
+        }
+        .ssrIntro {
+            margin: 10px;
+        }
+    }
+    .useRouterBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .useRouterIntroTitle {
+            margin: 10px;
+        }
+        .useRouterIntro {
+            margin: 10px;
+        }
+    }
+    .nextHeadBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .nextHeadIntroTitle {
+            margin: 10px;
+        }
+        .nextHeadIntro {
+            margin: 10px;
+        }
+    }
+    .nextImageBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .nextImageIntroTitle {
+            margin: 10px;
+        }
+        .nextImageIntro {
+            margin: 10px;
+        }
+    }
+    .errorPageBox {
+        border: 1px solid rgb(78, 156, 137);
+        margin: 10px;
+        .errorPageIntroTitle {
+            margin: 10px;
+        }
+        .errorPageIntro {
+            margin: 10px;
+        }
+    }
+}

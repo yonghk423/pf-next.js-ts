@@ -35,7 +35,7 @@ export default function Project() {
                   <Image src="/portfolio.jpeg" alt="" layout="fill"/>  
                 </div>                   
                 <div className={styles.projectIntroBox}>
-                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 Next.js 프레임워크를 사용하였습니다. React.js 라이브러리와 비교하며 이해도를 높이고 SEO 최적화가 무엇인지 공부하며 SSR 방식을 도입함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
+                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 Next.js 프레임워크를 사용하였습니다. React.js 라이브러리와 비교하며 이해도를 높이고 SEO가 무엇인지 공부하며 SSR 방식을 도입함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
                     <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
