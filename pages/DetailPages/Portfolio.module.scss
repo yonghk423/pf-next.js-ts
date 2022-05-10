@@ -1,67 +1,77 @@
 .container {
-    border: 1px solid rgb(78, 156, 137);
+    border: 2px solid #f48fb1;
     margin: 20px;
     .projectIntroBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #f48fb1;
         margin: 10px;
+        background-color: #fce4ec;
         .projectIntroTitle {
+            font-size: 30px;
             margin: 10px;
-        }
-        .projectIntroDeploy {
-            margin: 10px;
-        }
+        }        
         .projectIntroExpTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .projectIntroExp {
             margin: 10px;
         }
     }
     .ssrIntroBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #f48fb1;
         margin: 10px;
+        background-color: #fce4ec;
         .ssrIntroTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .ssrIntro {
             margin: 10px;
         }
     }
     .useRouterBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #f48fb1;
         margin: 10px;
+        background-color: #fce4ec;
         .useRouterIntroTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .useRouterIntro {
             margin: 10px;
         }
     }
     .nextHeadBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #f48fb1;
         margin: 10px;
+        background-color: #fce4ec;
         .nextHeadIntroTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .nextHeadIntro {
             margin: 10px;
         }
     }
     .nextImageBox {
-        border: 1px solid rgb(78, 156, 137);
+        background-color: #fce4ec;
+        border: 2px solid #f48fb1;
         margin: 10px;
         .nextImageIntroTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .nextImageIntro {
             margin: 10px;
         }
     }
     .errorPageBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #f48fb1;
         margin: 10px;
+        background-color: #fce4ec;
         .errorPageIntroTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .errorPageIntro {
             margin: 10px;

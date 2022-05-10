@@ -1,17 +1,17 @@
 .container {
-    border: 1px solid rgb(78, 156, 137);
+    border: 2px solid rgb(78, 156, 137);
     margin: 20px;
     .projectIntroBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
         .projectIntroTitle {
             margin: 10px;
-        }
-        .projectIntroDeploy {
-            margin: 10px;
-        }
+            font-size: 30px;
+        }        
         .projectIntroExpTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .projectIntroExp {
             margin: 10px;
@@ -19,12 +19,15 @@
     }
     .projectExplainBox {
         // border: 1px solid rgb(78, 156, 137);
+        
       .projectIntroOneBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
           
          .projectIntroOneTitle {
           margin: 10px;
+          font-size: 25px;
         
         }
         .projectIntroOne {
@@ -33,19 +36,23 @@
       }  
         
       .projectIntroTwoBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
         .projectIntroTwoTitle {
           margin: 10px;
+          font-size: 25px;
         }
         .projectIntroTwoTitleAxios {
           margin: 10px;
+          font-size: 21px;
         }
         .projectIntroTwoAxios {
           margin: 10px;
         }
         .projectIntroTwoTitleUseState {
           margin: 10px;
+          font-size: 21px;
         }
         .projectIntroTwoUseState {
           margin: 10px;
@@ -53,7 +60,7 @@
         }
         .projectIntroTwoTitleUseEffect {
           margin: 10px;
-
+          font-size: 21px;
         }
         .projectIntroTwoUseEffect {
           margin: 10px;
@@ -61,13 +68,16 @@
         }
       } 
       .projectIntroThrBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
         .projectIntroThrTitle {
           margin: 10px;
+          font-size: 25px;
         }
         .projectIntroThrTitleModalUi {
           margin: 10px;
+          font-size: 21px;
 
         }
         .projectIntroThrModalUi {
@@ -75,10 +85,12 @@
         }
       }  
       .projectIntroFourBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
         .projectIntroFourTitle {
           margin: 10px;
+          font-size: 25px;
         }
         .projectIntroFourHookApi {
           margin: 10px;
@@ -86,10 +98,12 @@
         
       }  
       .projectIntroFiveBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid rgb(78, 156, 137);
         margin: 10px;
+        background-color: rgb(152, 193, 129);
         .projectIntroFiveTitle {
           margin: 10px;
+          font-size: 25px;
         }
         .projectIntroFiveInfoUis {
           margin: 10px;

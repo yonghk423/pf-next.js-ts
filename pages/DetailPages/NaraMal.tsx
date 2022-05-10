@@ -25,7 +25,7 @@ export default function NaraMal({ data }:InferGetServerSidePropsType<typeof getS
             <div className={styles.projectIntroTwoAxios}>{data.projectIntroTwoAxios}</div>
             <div className={styles.projectIntroTwoTitleUseState}>{data.projectIntroTwoTitleUseState}</div>
             <div className={styles.projectIntroTwoUseState}>{data.projectIntroTwoUseState}</div>
-            <div className={styles.projectIntroTwoTitleUseEffect}>{data.projectIntroTwoUseEffect}</div>
+            <div className={styles.projectIntroTwoTitleUseEffect}>{data.projectIntroTwoTitleUseEffect}</div>
             <div className={styles.projectIntroTwoUseEffect}>{data.projectIntroTwoUseEffect}</div>
           </div>
           <div className={styles.projectIntroThrBox}>  

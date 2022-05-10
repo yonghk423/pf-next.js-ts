@@ -56,8 +56,7 @@
               }
           }
 
-        .projectBox {  
-          font-weight: bold;
+        .projectBox {            
           display: grid; 
           margin: 10px;
           grid-template-columns: auto auto;
@@ -73,18 +72,16 @@
             max-width: 100%;
             border: 1.5px solid black;
             .projectIntro {
-              font-size: 18px;
               margin: 20px;
               font-size: 19px;
             }
             .projectIntroTextBox {
-              font-family: 'Anton', sans-serif;
+              font-weight: bold;
               margin: 20px;
               display: grid;
               grid-template-columns: auto auto;
               .projectIntroMajor {
                 margin: 5px;
-                font-weight: bold;
                 font-size: 19px;
               }
               .projectIntroGitHub {

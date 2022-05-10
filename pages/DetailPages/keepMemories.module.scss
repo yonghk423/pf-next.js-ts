@@ -1,17 +1,17 @@
 .container {
-    border: 1px solid rgb(78, 156, 137);
+    border: 2px solid #c493e2;
     margin: 20px;
     .projectIntroBox {
-        border: 1px solid rgb(78, 156, 137);
+        border: 2px solid #c493e2;
+        background-color: #e4d1f0;
         margin: 10px;
         .projectIntroTitle {
             margin: 10px;
-        }
-        .projectIntroDeploy {
-            margin: 10px;
-        }
+            font-size: 30px;
+        }        
         .projectIntroExpTitle {
             margin: 10px;
+            font-size: 25px;
         }
         .projectIntroExp {
             margin: 10px;
@@ -19,69 +19,82 @@
     }
     .projectExplainBox {
         .typeScriptBox {
-            border: 1px solid rgb(78, 156, 137);
+            border: 2px solid #c493e2;
             margin: 10px;
+            background-color: #e4d1f0;
             .typeScriptMainTitle {
                 margin: 10px;
+                font-size: 25px;
             }
             .typeScriptTitleOne {
                 margin: 10px;
+                font-size: 21px;
             }
             .typeScriptTitleOneIntro {
                 margin: 10px;
             }
             .typeScriptTitleTwo {
-                margin: 10px
+                margin: 10px;
+                font-size: 21px;
             }
             .typeScriptTitleTwoIntro {
                 margin: 10px;
             }
             .typeScriptTitleThr {
                 margin: 10px;
+                font-size: 21px;
             }
             .typeScriptTitleThrIntro {
                 margin: 10px;
             }
         }
         .reduxBox {
-            border: 1px solid rgb(78, 156, 137);
+            border: 2px solid #c493e2;
             margin: 10px;
+            background-color: #e4d1f0;
             .reduxTitle {
                 margin: 10px;
+                font-size: 25px;
             }
             .reduxIntro {
                 margin: 10px;
             }
         }
         .functionIntroBox {
-            border: 1px solid rgb(78, 156, 137);
+            border: 2px solid #c493e2;
             margin: 10px;
+            background-color: #e4d1f0;
             .functionIntroTitleOne {
                 margin: 10px;
+                font-size: 25px;
             }
             .functionIntroOne {
                 margin: 10px;
             }
             .functionIntroTitleTwo {
                 margin: 10px;
+                font-size: 25px;
             }
             .functionIntroTwo {
                 margin: 10px;
             }
             .functionIntroTitleThr {
                 margin: 10px;
+                font-size: 25px;
             }
             .functionIntroThr {
                 margin: 10px;
             }
             .functionIntroTitleFour {
                 margin: 10px;
+                font-size: 25px;
             }
             .functionIntroFour {
                 margin: 10px;
             }
             .functionIntroTitleFive {
                 margin: 10px;
+                font-size: 25px;
             }
             .functionIntroFive {
                 margin: 10px;
