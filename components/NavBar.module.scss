@@ -289,7 +289,7 @@
 
 //---------------------------------------------------------------------------------
 
-@media (max-width: 390px) {
+@media (max-width: 790px) {
   .container {
     // background-color: #e9e6e4;
 	// display: grid;
@@ -305,7 +305,7 @@
         .navBarLogo {
             position: relative;
             z-index: 1;
-            font-size: 25px;            
+            font-size: 20px;            
         }
         .navBarMenu {
             display: flex;
@@ -313,18 +313,97 @@
             left: -10px; 
         .navBarList {
             z-index: 1;
-            padding: 8px 12px;
+            // padding: 8px 12px;
             margin: 0 20px;
-            font-size: 20px;
+            font-size: 15px;
             }
         }       
     }
     .navBarProfileBox { 
+        margin: 0 auto;
         box-shadow: none;
         border-radius: 5px;
         display: grid;
         grid-template-columns: auto;
-        width: 700px;
+        // width: 700px;
+        max-width: 100%;
+        font-family: 'Noto Sans KR', sans-serif;
+        position: relative;
+        top: 100px;
+        left: -0.5px;
+        z-index: 1;                 
+        display: grid;
+        padding: 20px;
+        &:hover {
+            background-color: #01579b;
+            transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+            color: white;
+                }
+        
+    .navBarProfileName {   
+        font-size: 40px;
+        margin: 10px;
+            }
+    .navBarProfileIntroOne {
+        font-size: 25px;
+        margin: 10px;
+        &:hover {
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          color: #000000;
+                }
+      }
+      .navBarProfileIntroTwo {
+        font-size: 25px;
+        margin: 10px;
+        &:hover {
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          color: #000000;
+                }
+      }      
+    }	
+ }
+
+ .sliderBox {     
+  display: none;  
+}
+}
+}
+//--------------------------------------------------------------------------
+@media (max-width: 390px) {
+  .container {
+  // background-color: #e9e6e4;
+	// display: grid;
+	.background {    
+    // filter: grayscale(100%) contrast(80%);
+    position: relative; 
+    height: 750px;
+    .navBar {
+        font-family: 'DM Serif Display', serif;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        .navBarLogo {
+            position: relative;
+            z-index: 1;
+            font-size: 20px;            
+        }
+        .navBarMenu {
+            display: none;
+        .navBarList {
+            z-index: 1;
+            // padding: 8px 12px;
+            margin: 0 20px;
+            font-size: 15px;
+            }
+        }       
+    }
+    .navBarProfileBox { 
+        margin: 0 auto;
+        box-shadow: none;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        // width: 700px;
         max-width: 100%;
         font-family: 'Noto Sans KR', sans-serif;
         position: relative;

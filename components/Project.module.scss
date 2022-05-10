@@ -174,7 +174,7 @@
     .laptop {
       
       .camera {
-
+        
       }     
       .projectTitleBox {
 
@@ -232,11 +232,33 @@
     .laptop {
       
       .camera {
-
       }     
-      .projectTitleBox {
+      .projectTitleBox { 
+            font-weight: bold;
+            justify-content: center;
+            text-align: center;            
+            margin: 10px;
+            border: 1.5px solid black;
 
-      } 
+             .projectTitle {
+                font-size: 40px;
+                background-color: #bf5f82;
+                color: black;
+              }
+              .projectSubTitle {
+                font-size: 20px;
+              }
+              .projectDetail {
+                font-size: 20px;
+                padding: 20px;
+                &:hover {
+                  background-color: #f8bbd0;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  border : 2px solid #fce4ec;
+                }
+              }
+          }
+
       .projectBox {  
           display: grid; 
           margin: 10px;
@@ -259,6 +281,88 @@
               margin: 20px;
               display: grid;
               grid-template-columns: auto;
+              .projectIntroMajor {
+                margin: 5px;
+              }
+              .projectIntroGitHub {
+                margin: 5px;
+              }
+              .projectIntroURL {
+                margin: 5px;
+              }
+              .projectIntroFront {
+                margin: 5px;
+              }
+              .projectIntroBack {
+                margin: 5px;
+              }
+              .projectIntroDeploy {
+                margin: 5px;
+              } 
+            }
+          }            
+        } 
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------
+
+
+@media (max-width: 390px) {
+  .container {
+    border: 5px solid gray;
+    border-radius: 40px;
+    margin: 1px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    .laptop {
+      margin: 20px;
+      .camera {
+      }     
+      .projectTitleBox { 
+            margin: 1px;
+             .projectTitle {
+                font-size: 20px;
+                background-color: #bf5f82;
+                color: black;
+              }
+              .projectSubTitle {
+                font-size: 20px;
+              }
+              .projectDetail {
+                font-size: 20px;
+                padding: 1px;
+                &:hover {
+                  background-color: #f8bbd0;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  border : 2px solid #fce4ec;
+                }
+              }
+          }
+      .projectBox {  
+          display: grid; 
+          margin: 1px;
+          grid-template-columns: auto;
+          justify-items: center;
+
+          .projectImg {   
+            width: 280px;         
+            height: 200px;
+            }           
+            
+          .projectIntroBox {
+            border: none;            
+            max-width: 100%;
+            .projectIntro {
+               font-size: 18px;
+               margin: 10px;
+            }
+            .projectIntroTextBox {
+              margin:  1px;
+              display:grid;              
+              
               .projectIntroMajor {
                 margin: 5px;
               }

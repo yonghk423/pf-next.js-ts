@@ -63,3 +63,67 @@
       }            
     } 
 }
+
+@media (max-width: 390px) {
+  .skillsBox {    
+  background-color: #fce4ec;
+    .skillsTitle {
+        font-family: 'Anton', sans-serif;
+        position: relative;
+        text-align: center;
+        // border: 1px solid black;
+        font-size: 45px;
+        // margin: 20px;     
+    }
+    .skillsBoxList {
+      font-family: 'Anton', sans-serif;
+      position: relative;
+      // border: 1px solid black;
+      display: grid;   
+      grid-template-columns: auto;
+      justify-content: space-evenly;  
+      margin: 20px;
+      .frontBox{
+          margin: 10px;          
+          .frontTitle {
+            margin: 10px;
+            font-size: 35px;
+            }
+          .frontList {
+            font-size: 20px;
+          .js {
+            margin: 10px;
+          } 
+          .ts {
+            margin: 10px;
+          } 
+          .redux {
+            margin: 10px;
+          }
+          .scss {
+            margin: 10px;
+          }
+        }
+      }
+      .backDeployBox {
+          margin: 10px;
+        .backTitle {
+          margin: 10px;
+          font-size: 35px;
+        }
+        .backList {
+          margin: 10px;
+          font-size: 20px;
+        }
+        .deployTitle {
+          margin: 10px;
+          font-size: 35px;
+        }
+        .deployList {
+          margin: 10px;
+          font-size: 20px;
+        }
+      }            
+    } 
+}
+}

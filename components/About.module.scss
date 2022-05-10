@@ -64,3 +64,68 @@
         }
      }
  } 
+
+ @media (max-width: 390px) {
+   .aboutBox {
+  background-color:  #ffc1e3;
+    .aboutTitle {
+        font-family: 'Anton', sans-serif;
+        // border: 1px solid black;
+        text-align: center;
+        font-size: 45px;
+        // margin: 20px;    
+    }
+    .aboutBoxList{
+        font-family: 'Anton', sans-serif;
+        // margin: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;  
+        .contactBox {
+          margin: 10px;
+            .contact {
+              font-size: 35px;
+              margin: 10px;
+  
+            }
+            .number {
+              font-size: 20px;
+              margin: 10px;
+            }
+            .email {
+              font-size: 20px;
+              margin: 10px;
+            }
+            .code {
+              font-weight: bold;
+              position: relative;
+              top: 10px;
+              font-size: 15px;
+              margin: 10px;
+            }
+            .uni {
+              font-weight: bold;
+              position: relative;
+              top: 10px;
+              font-size: 15px;
+              margin: 10px;
+            }
+          }
+        .archiveBox {
+          margin: 10px;
+            .archive {
+                font-size: 35px;
+                margin: 10px;
+            }
+            .github {
+              font-size: 20px;
+              margin: 10px;
+            }
+            .blog {
+              font-size: 20px;
+              margin: 10px;
+            }
+        }
+     }
+  } 
+ }
