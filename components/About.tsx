@@ -3,7 +3,7 @@ import Link from 'next/link';
 
  export default function About() {
     return (
-      <div className={styles.aboutBox}>
+      <div id="about" className={styles.aboutBox}>
         <div className={styles.aboutTitle}>About me</div>
         <div className={styles.aboutBoxList}>
             <div className={styles.contactBox}>

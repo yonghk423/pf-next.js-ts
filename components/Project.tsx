@@ -19,7 +19,7 @@ export default function Project() {
   }
     return (
         <>
-        <div className={styles.projectMainTitle}>Project</div>
+        <div id="projects" className={styles.projectMainTitle}>Project</div>
         <div className={styles.container}>
             <div className={styles.camera}></div>
             <div className={styles.laptop}>

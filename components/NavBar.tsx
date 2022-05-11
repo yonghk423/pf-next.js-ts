@@ -1,5 +1,6 @@
 import styles from "./NavBar.module.scss";
 import Image from 'next/image';
+import Link from 'next/link';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -24,9 +25,15 @@ import "slick-carousel/slick/slick-theme.css";
             <div className={styles.navBarLogo}>yonghee&apos;Portfolio</div>
             <div className={styles.navBarMenu}>
               <div className={styles.navBarList}>Home</div>
-              <div className={styles.navBarList}>About me</div>
-              <div className={styles.navBarList}>Skills</div>
-              <div className={styles.navBarList}>Projects</div>                         
+              <Link href={'#about'}>
+                <a><div className={styles.navBarList}>About me</div></a>
+              </Link>
+              <Link href={'#skills'}>
+                <a><div className={styles.navBarList}>Skills</div></a>
+              </Link> 
+              <Link href={'#projects'}>
+                <a><div className={styles.navBarList}>Projects</div></a>
+              </Link>                                  
             </div>
           </div>  
           <div className={styles.navBarProfileBox}>

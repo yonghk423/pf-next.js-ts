@@ -2,7 +2,7 @@ import styles from "./Skills.module.scss"
 
  export default function Skills() {
      return (
-         <div className={styles.skillsBox}>
+         <div id="skills" className={styles.skillsBox}>
              <div className={styles.skillsTitle}>Skills</div>
              <div className={styles.skillsBoxList}>
                  <div className={styles.frontBox}>
