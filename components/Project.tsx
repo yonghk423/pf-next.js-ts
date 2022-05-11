@@ -49,7 +49,7 @@ export default function Project() {
                     </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
-                      TypeScript, Next.js, Axios, Sass(SCSS)
+                      TypeScript, Next.js, Sass(SCSS)
                     </div>
                     <div className={styles.projectIntroBack}>Backend</div>
                     <div className={styles.projectIntroBack}>
