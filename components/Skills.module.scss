@@ -1,20 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
-//font-family: 'Archivo Narrow', sans-serif;
 
 .skillsBox {    
   background-color: #fce4ec;
     .skillsTitle {
-        font-family: 'Archivo Narrow', sans-serif;
         position: relative;
         text-align: center;
-        // border: 1px solid black;
         font-size: 45px;
-        // margin: 20px;     
     }
     .skillsBoxList {
-      font-family: 'Archivo Narrow', sans-serif;
       position: relative;
-      // border: 1px solid black;
       display: grid;   
       grid-template-columns: auto auto;
       justify-content: space-evenly;  
