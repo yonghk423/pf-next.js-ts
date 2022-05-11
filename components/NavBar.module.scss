@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam&family=Noto+Sans+KR&family=Sriracha&display=swap');
-
-// font-family: 'DM Serif Display', serif;
-// font-family: 'Kalam', cursive;
-// font-family: 'Noto Sans KR', sans-serif;
-// font-family: 'Sriracha', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+//font-family: 'Koulen', cursive;
 .container {
     background-color: #f48fb1;    
 	// display: grid;
@@ -12,7 +8,7 @@
     position: relative; 
     height: 750px;
     .navBar {
-        font-family: 'DM Serif Display', serif;
+        // font-family: 'Koulen', cursive;
         display: flex;
         justify-content: space-between;
         padding: 25px;

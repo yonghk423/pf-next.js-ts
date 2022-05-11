@@ -1,19 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-// font-family: 'Anton', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+//font-family: 'Archivo Narrow', sans-serif;
 
 .aboutBox {
   background-color:  #ffc1e3;
     .aboutTitle {
-        font-family: 'Anton', sans-serif;
-        // border: 1px solid black;
+        font-family: 'Archivo Narrow', sans-serif;
         text-align: center;
         font-size: 45px;
-        // margin: 20px;    
     }
     .aboutBoxList{
-        font-family: 'Anton', sans-serif;
-        // margin: 20px;
+        font-family: 'Archivo Narrow', sans-serif;
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;  
