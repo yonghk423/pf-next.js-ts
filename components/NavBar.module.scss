@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+//font-family: 'Archivo Narrow', sans-serif;
 .container {
-    background-color: #f48fb1;    
-	// display: grid;
+  font-family: 'Archivo Narrow', sans-serif;
+  background-color: #f48fb1;    
 	.background {    
-    // filter: grayscale(100%) contrast(80%);
     position: relative; 
     height: 750px;
     .navBar {
