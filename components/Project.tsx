@@ -5,6 +5,10 @@ import { useRouter } from 'next/router';
 
 export default function Project() {
   const router = useRouter();
+
+  const onClickBaeChuMarket = () => {
+    router.push('https://velog.io/@yonghk423?tag=baechu-market')
+  }
   
   const onClickPortfolio = () => {
     router.push('/DetailPages/Portfolio')
@@ -32,14 +36,14 @@ export default function Project() {
                 </Link>
               </div>
               <div className={styles.projectBox}>            
-                <div onClick={onClickPortfolio} className={styles.projectImg}>
+                <div onClick={onClickBaeChuMarket} className={styles.projectImg}>
                   <Image src="/baechumarket.jpeg" alt="" layout="fill"/>  
                 </div>                   
                 <div className={styles.projectIntroBox}>
                   <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 <strong>Next.js 프레임워크</strong> 를 사용하였습니다. <strong>React.js 라이브러리와 비교</strong> 하며 이해도를 높이고 <strong>SEO가 무엇인지</strong> 공부하며 DetailPage(자세히 보기)는 <strong> SSR 방식을 도입</strong> 함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
-                    <div className={styles.projectIntroMajor}>프로젝트 소개</div>
+                    <div className={styles.projectIntroMajor}>-</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/yonghk423/next.js-market'}>
                       <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/next.js-market</div></a>
@@ -50,14 +54,16 @@ export default function Project() {
                     </Link>
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
-                      TypeScript, Next.js, Sass(SCSS)
+                      TypeScript, Next.js, React Hooks API, SWR, styled-components,
                     </div>
                     <div className={styles.projectIntroBack}>Backend</div>
                     <div className={styles.projectIntroBack}>
-                      Node.js, Express.js,
+                      Next.js, Prisma
                     </div>
+                    <div className={styles.projectIntroDatabase}>database</div>
+                    <div className={styles.projectIntroDatabase}>planetscale</div>
                     <div className={styles.projectIntroDeploy}>Deployment</div>
-                    <div className={styles.projectIntroDeploy}>Vercel, Heroku</div>
+                    <div className={styles.projectIntroDeploy}>Vercel</div>
                   </div>
                 </div>               
               </div>

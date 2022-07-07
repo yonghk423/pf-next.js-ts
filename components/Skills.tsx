@@ -17,9 +17,11 @@ import styles from "./Skills.module.scss"
                  </div>
                  <div className={styles.backDeployBox}>
                      <div className={styles.backTitle}>Back-end</div>
-                     <div className={styles.backList}>Node.js, Express.js</div>
+                     <div className={styles.backList}>Node.js, Express.js, Prisma</div>
                      <div className={styles.deployTitle}>Deployment</div>
                      <div className={styles.deployList}>S3, Vercel, Heroku</div>
+                     <div className={styles.databaseTitle}>database</div>
+                    <div className={styles.databaseList}>planetscale</div>
                  </div>
              </div>            
          </div>
