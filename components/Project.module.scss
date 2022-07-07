@@ -7,6 +7,9 @@
   text-align: center;
   font-size: 45px;
   margin: 20px;
+  background-color: rgba(225, 225, 225, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
 }
 .container {   
     border: 5px solid gray;
@@ -36,23 +39,65 @@
             text-align: center;            
             margin: 10px;
             border: 1.5px solid black;
-
-             .projectTitle {
+             
+              .projectTitlebae {
                 font-size: 40px;
-                background-color: #bf5f82;
+                background-color: #496f4d;
                 color: black;
               }
-              .projectSubTitle {
-                font-size: 20px;
+              .projectTitleport {
+                font-size: 40px;
+                background-color: #ffc1e3;
+                color: black;
               }
-              .projectDetail {
+              .projectTitlekeep {
+                font-size: 40px;
+                background-color: #d4badf;
+                color: black;
+              }
+              .projectTitlenara {
+                font-size: 40px;
+                background-color: #a5c8a7;
+                color: black;
+              }              
+              .projectDetailbae {
                 font-size: 20px;
                 padding: 20px;
                 &:hover {
-                  background-color: #f8bbd0;
+                  background-color: #496f4d;
                   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-                  border : 2px solid #fce4ec;
+                  // border : 2px solid #287935;
                 }
+              }
+              .projectDetailport {
+                font-size: 20px;
+                padding: 20px;
+                &:hover {
+                  background-color: #ffc1e3;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  // border : 2px solid #287935;
+                }
+              }              
+              .projectDetailkeep {
+                font-size: 20px;
+                padding: 20px;
+                &:hover {
+                  background-color: #d4badf;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  // border : 2px solid #287935;
+                }
+              }
+              .projectDetailnara {
+                font-size: 20px;
+                padding: 20px;
+                &:hover {
+                  background-color: #a5c8a7;
+                  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+                  // border : 2px solid #287935;
+                }
+              }
+              .projectSubTitle {
+                font-size: 20px;
               }
           }
 

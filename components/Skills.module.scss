@@ -8,6 +8,9 @@
         position: relative;
         text-align: center;
         font-size: 45px;
+        background-color: rgba(225, 225, 225, 0.2);
+        border-radius: 15px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
     }
     .skillsBoxList {
       position: relative;
@@ -16,7 +19,10 @@
       justify-content: space-evenly;  
       margin: 20px;
       .frontBox{
-          margin: 10px;          
+          margin: 10px; 
+          background-color: rgba(225, 225, 225, 0.2);
+          border-radius: 15px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);         
           .frontTitle {
             margin: 10px;
             font-size: 35px;
@@ -35,10 +41,16 @@
           .scss {
             margin: 10px;
           }
+          .webpack {
+            margin: 10px;
+          }
         }
       }
       .backDeployBox {
           margin: 10px;
+          background-color: rgba(225, 225, 225, 0.2);
+          border-radius: 15px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
         .backTitle {
           margin: 10px;
           font-size: 35px;

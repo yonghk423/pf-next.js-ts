@@ -7,6 +7,9 @@
     .aboutTitle {
         text-align: center;
         font-size: 45px;
+        background-color: rgba(225, 225, 225, 0.2);
+        border-radius: 15px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
     }
     .aboutBoxList{
         display: grid;
@@ -14,6 +17,9 @@
         justify-content: space-evenly;  
         .contactBox {
           margin: 10px;
+          background-color: rgba(225, 225, 225, 0.2);
+          border-radius: 15px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
             .contact {
               font-size: 35px;
               margin: 10px;
@@ -44,6 +50,9 @@
           }
         .archiveBox {
           margin: 10px;
+          background-color: rgba(225, 225, 225, 0.2);
+          border-radius: 15px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
             .archive {
                 font-size: 35px;
                 margin: 10px;

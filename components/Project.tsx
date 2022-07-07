@@ -23,11 +23,51 @@ export default function Project() {
         <div className={styles.container}>
             <div className={styles.camera}></div>
             <div className={styles.laptop}>
+
               <div className={styles.projectTitleBox}>
-                <div className={styles.projectTitle}>포트폴리오 웹사이트</div>
-                <div className={styles.projectSubTitle}>2021.12.01(1인 개인 프로젝트)</div>
+                <div className={styles.projectTitlebae}>배추마켓 온라인 마켓 서비스 웹사이트</div>
+                <div className={styles.projectSubTitle}>2021.5.25(1인 개인 프로젝트)</div>
+                <Link href={'https://velog.io/@yonghk423?tag=baechu-market'}>
+                  <a><div className={styles.projectDetailbae}>자세히 보기</div></a>
+                </Link>
+              </div>
+              <div className={styles.projectBox}>            
+                <div onClick={onClickPortfolio} className={styles.projectImg}>
+                  <Image src="/baechumarket.jpeg" alt="" layout="fill"/>  
+                </div>                   
+                <div className={styles.projectIntroBox}>
+                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 <strong>Next.js 프레임워크</strong> 를 사용하였습니다. <strong>React.js 라이브러리와 비교</strong> 하며 이해도를 높이고 <strong>SEO가 무엇인지</strong> 공부하며 DetailPage(자세히 보기)는 <strong> SSR 방식을 도입</strong> 함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
+                  <div className={styles.projectIntroTextBox}>
+                    <div className={styles.projectIntroMajor}>주요기능</div>
+                    <div className={styles.projectIntroMajor}>프로젝트 소개</div>
+                    <div className={styles.projectIntroGitHub}>GitHub</div>
+                    <Link href={'https://github.com/yonghk423/next.js-market'}>
+                      <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/next.js-market</div></a>
+                    </Link>
+                    <div className={styles.projectIntroURL}>URL</div>
+                    <Link href={'https://next-js-market.vercel.app/Login'}>
+                      <a><div className={styles.projectIntroGitHub}>https://next-js-market.vercel.app/Login</div></a>
+                    </Link>
+                    <div className={styles.projectIntroFront}>Frontend</div>
+                    <div className={styles.projectIntroFront}>
+                      TypeScript, Next.js, Sass(SCSS)
+                    </div>
+                    <div className={styles.projectIntroBack}>Backend</div>
+                    <div className={styles.projectIntroBack}>
+                      Node.js, Express.js,
+                    </div>
+                    <div className={styles.projectIntroDeploy}>Deployment</div>
+                    <div className={styles.projectIntroDeploy}>Vercel, Heroku</div>
+                  </div>
+                </div>               
+              </div>
+
+
+              <div className={styles.projectTitleBox}>
+                <div className={styles.projectTitleport}>포트폴리오 웹사이트</div>
+                <div className={styles.projectSubTitle}>2021.4.01(1인 개인 프로젝트)</div>
                 <Link href={'/DetailPages/Portfolio'}>
-                  <a><div className={styles.projectDetail}>자세히 보기</div></a>
+                  <a><div className={styles.projectDetailport}>자세히 보기</div></a>
                 </Link>
               </div>
               <div className={styles.projectBox}>            
@@ -38,7 +78,7 @@ export default function Project() {
                   <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 <strong>Next.js 프레임워크</strong> 를 사용하였습니다. <strong>React.js 라이브러리와 비교</strong> 하며 이해도를 높이고 <strong>SEO가 무엇인지</strong> 공부하며 DetailPage(자세히 보기)는 <strong> SSR 방식을 도입</strong> 함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
-                    <div className={styles.projectIntroMajor}>사진 업로드 및 글 작성 기능, 즐겨찾기 추가 기능</div>
+                    <div className={styles.projectIntroMajor}>프로젝트 소개</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/yonghk423/pf-next.js-ts'}>
                       <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/pf-next.js-ts</div></a>
@@ -62,10 +102,10 @@ export default function Project() {
               </div>
 
               <div className={styles.projectTitleBox}>
-                <div className={styles.projectTitle}>추억을 담다 웹사이트</div>
+                <div className={styles.projectTitlekeep}>추억을 담다 웹사이트</div>
                 <div className={styles.projectSubTitle}>2021.12.01(1인 개인 프로젝트)</div>
                 <Link href={'/DetailPages/KeepMemories'}>
-                  <a><div className={styles.projectDetail}>자세히 보기</div></a>
+                  <a><div className={styles.projectDetailkeep}>자세히 보기</div></a>
                 </Link>
               </div>
               <div className={styles.projectBox}>                
@@ -100,10 +140,10 @@ export default function Project() {
               </div>     
 
               <div className={styles.projectTitleBox}>
-                <div className={styles.projectTitle}>나랏말싸미 웹사이트</div>
+                <div className={styles.projectTitlenara}>나랏말싸미 웹사이트</div>
                 <div className={styles.projectSubTitle}>2021.11 - 2021.12(4인/4주)</div>
                 <Link  href={'/DetailPages/NaraMal'}>
-                  <a><div className={styles.projectDetail}>자세히 보기(맡은 포지션 및 역할)</div></a>
+                  <a><div className={styles.projectDetailnara}>자세히 보기(맡은 포지션 및 역할)</div></a>
                 </Link>
               </div>
               <div className={styles.projectBox}>               
