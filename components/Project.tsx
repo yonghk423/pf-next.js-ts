@@ -40,10 +40,10 @@ export default function Project() {
                   <Image src="/baechumarket.jpeg" alt="" layout="fill"/>  
                 </div>                   
                 <div className={styles.projectIntroBox}>
-                  <div className={styles.projectIntro}>이번 포트폴리오 웹사이트는 <strong>Next.js 프레임워크</strong> 를 사용하였습니다. <strong>React.js 라이브러리와 비교</strong> 하며 이해도를 높이고 <strong>SEO가 무엇인지</strong> 공부하며 DetailPage(자세히 보기)는 <strong> SSR 방식을 도입</strong> 함으로써 Next.js의 장점을 경험하고자 노력하였습니다.</div>
+                  <div className={styles.projectIntro}>프론트엔드 개발자로서 api 요청을 통한 <strong>데이터 관리</strong>를 할 수 있는 능력을 향상 시키고자 하였습니다. 풀스텍 기반의 웹사이트를 완성한다는 도전은 쉽지 않았으나 <strong>Next.js 에서 제공하는 API Routes</strong> 와 비테스(Vitess) 기반의 MySQL 호환 <strong>서버리스</strong> 데이터베이스 플랫폼인 planetscale을 사용하여 까다로운 서버 관리 파트를 최소화 시킴으로서 <strong>api 와 연동</strong>하는 웹사이트를 개발 할 수 있었습니다. 또한 <strong>data fetching 라이브러리</strong>인 <strong>SWR</strong>을 사용하여 데이터 캐싱의 장점을 직접 경험 할수 있었습니다. <strong>프론트엔드와 백엔드의 큰 흐름을 경험</strong>하게 된 큰 경험이었으며 현재도 성능 최적화와 리팩터링를 하며 역량을 키우고 있습니다. </div>
                   <div className={styles.projectIntroTextBox}>
                     <div className={styles.projectIntroMajor}>주요기능</div>
-                    <div className={styles.projectIntroMajor}>-</div>
+                    <div className={styles.projectIntroMajor}>상품 업로드 및 Q&A 소통 기능</div>
                     <div className={styles.projectIntroGitHub}>GitHub</div>
                     <Link href={'https://github.com/yonghk423/next.js-market'}>
                       <a><div className={styles.projectIntroGitHub}>https://github.com/yonghk423/next.js-market</div></a>
@@ -58,7 +58,7 @@ export default function Project() {
                     </div>
                     <div className={styles.projectIntroBack}>Backend</div>
                     <div className={styles.projectIntroBack}>
-                      Next.js, Prisma
+                      Next.js, Prisma, Nodemailer, iron-session
                     </div>
                     <div className={styles.projectIntroDatabase}>database</div>
                     <div className={styles.projectIntroDatabase}>planetscale</div>
@@ -131,6 +131,10 @@ export default function Project() {
                     <Link href={'https://market-list-eight.vercel.app'}>
                       <a><div className={styles.projectIntroGitHub}>https://market-list-eight.vercel.app</div></a>
                     </Link>
+                    <div className={styles.projectIntroMajor}>velog</div>
+                    <Link href={'https://velog.io/@yonghk423?tag=%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8'}>
+                      <a><div className={styles.projectIntroMajor}>프로젝트 회고</div></a>
+                    </Link>  
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
                       TypeScript, React.js, React Hooks API, Redux.js, <br></br> Redux-Thunk, Axios, Sass(SCSS)
@@ -169,6 +173,10 @@ export default function Project() {
                     <Link href={'https://thekingsletters.ml'}>
                       <a><div className={styles.projectIntroGitHub}>https://thekingsletters.ml</div></a>
                     </Link>
+                    <div className={styles.projectIntroMajor}>velog</div>
+                    <Link href={'https://velog.io/@yonghk423?tag=4%EC%A3%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8'}>
+                      <a><div className={styles.projectIntroMajor}>프로젝트 회고</div></a>
+                    </Link> 
                     <div className={styles.projectIntroFront}>Frontend</div>
                     <div className={styles.projectIntroFront}>
                       JavaScript, React.js, React Hooks API, Axios <br></br> React Router, Styled-Components
