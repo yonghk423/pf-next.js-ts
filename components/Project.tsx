@@ -181,10 +181,10 @@ export default function Project() {
                     <div className={styles.projectIntroFront}>
                       JavaScript, React.js, React Hooks API, Axios <br></br> React Router, Styled-Components
                     </div>
-                    <div className={styles.projectIntroBack}>Backend</div>
-                    <div className={styles.projectIntroBack}>
+                    {/* <div className={styles.projectIntroBack}>Backend</div> */}
+                    {/* <div className={styles.projectIntroBack}>
                       Node.js, Express.js, Nodemailer, JWT, OAuth <br></br>  Sequelize, MySQL
-                    </div>
+                    </div> */}
                     <div className={styles.projectIntroDeploy}>Deployment</div>
                     <div className={styles.projectIntroDeploy}>AWS</div>
                   </div>
